@@ -1,8 +1,5 @@
-﻿<!-- Sistema em PHP para provas online --> 
-<!-- Bruna Duarte e Lucas Borges --> 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+﻿<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <?php
-//Conecta o Aluno ao Banco de Dados
 $servidor ="localhost";
 $login = "root";
 $senha = "";
@@ -35,7 +32,7 @@ return $ip;
 
 // Create connection
 $con = new mysqli($servidor, $login, $senha, $banco);
-// Check connection
+// Verifica Conexão
 if ($con->connect_error) {
     die("Falha de Conexão: " . $conn->connect_error);
 }
