@@ -27,7 +27,7 @@ else
 return $ip;
 }
 
-$sql = "INSERT INTO Cadastro (nome, email, ip, data, cargo, empresa)
+$sql = "INSERT INTO contato (nome, email, ip, data, cargo, empresa)
 VALUES ('".$nome."', '".$email."', '".get_client_ip()."', now(), '".$cargo."', '".$empresa."')";
 
 if ($con->query($sql) === TRUE) {

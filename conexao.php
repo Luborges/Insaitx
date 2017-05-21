@@ -2,7 +2,7 @@
 $servidor ="localhost";
 $login = "root";
 $senha = "";
-$banco = "gama";
+$banco = "insitx";
 
 // Create connection
 $con = new mysqli($servidor, $login, $senha, $banco);
