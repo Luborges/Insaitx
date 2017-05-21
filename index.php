@@ -19,7 +19,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -29,7 +29,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -39,7 +39,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -49,7 +49,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -59,7 +59,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -69,7 +69,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -79,7 +79,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -89,7 +89,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -99,7 +99,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>

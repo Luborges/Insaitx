@@ -3678,6 +3678,8 @@ textarea.input-lg {
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px
+    background-color: #999999;
+    color: #FFFFFF;
 }
 
 .btn.active.focus,
@@ -3721,9 +3723,11 @@ fieldset[disabled] a.btn {
 }
 
 .btn-default {
-    color: #333;
-    background-color: #fff;
-    border-color: #ccc
+    color: #fff;
+    background-color: #999999;
+    box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 2px;
 }
 
 .btn-default.focus,
@@ -3734,9 +3738,8 @@ fieldset[disabled] a.btn {
 }
 
 .btn-default:hover {
-    color: #333;
-    background-color: #e6e6e6;
-    border-color: #adadad
+    box-shadow: 0 14px 26px -12px rgba(153, 153, 153, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(153, 153, 153, 0.2);
+    color: #fff;
 }
 
 .btn-default.active,
@@ -5143,7 +5146,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-brand {
-    float: left;
+    float: none;
     height: 50px;
     padding: 15px 15px;
     font-size: 18px;
@@ -8044,6 +8047,7 @@ header{
 
 .menu-table{
     margin-top: 15px;
+    text-align: center;
 }
 
 .cor{
@@ -8063,6 +8067,7 @@ header h1{
 
 .thumbnail h3{
     font-weight: 700;
+    color: #B2B2B2;
 }
 
 .cadastro{
@@ -8088,12 +8093,31 @@ header h1{
     float: none;
 }
 
+.navbar-header{
+    text-align: center;
+}
+
 footer{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
     color: #fff;
     background-color: #4C4C4C; 
+}
+
+@media (min-width: 320px) and (max-width: 568px){
+    header h1{
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 1024px){
+    header h1{
+    font-size: 26px;
+    }
 }
 
 
