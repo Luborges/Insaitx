@@ -8036,11 +8036,20 @@ button.close {
     }
 }
 
-header{
-	text-align: center;
-	height: 300px;
-}
 /*Custom*/
+
+header{
+    text-align: center;
+    height: 300px;
+}
+
+.menu-table{
+    margin-top: 15px;
+}
+
+header h1{
+    margin-top: 80px; 
+}
 
 
 
