@@ -8111,6 +8111,10 @@ footer{
         margin-bottom: 50px;
 }
 
+.conteudo{
+    display: none;
+}
+
 @media (min-width: 320px) and (max-width: 568px){
     header h1{
         font-size: 20px;

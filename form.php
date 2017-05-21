@@ -27,6 +27,6 @@ function verificarFormulario()
 	<div class="form-group"><input type='text' class="form-control" id='email' name='email' class='email' placeholder='E-mail' onkeyup="verificarFormulario()" size=50/></div>
 	<div class="form-group"><input type='text' class="form-control" name='cargo' class='cargo' placeholder='Cargo (Opcional)' size=50/></div>
 	<div class="form-group"><input type='text' class="form-control" name='empresa' class='empresa' placeholder='Empresa (Opcional)' size=50/></div>
-	<div class="form-group"><input type="submit" id='Cadastrar' value="Cadastrar" disabled="true" class="pull-right btn btn-default"></div>
+	<div class="form-group"><input type="submit" id='Cadastrar' value="Cadastrar" disabled="true" class="pull-right btn btn-default mostra"></div>
 	<input type="button" name="cadastrado" value="Já sou cadastrado" class="pull-right btn btn-default" onclick="verificarEmail()" />
 </form>
