@@ -8,12 +8,8 @@ $sql = "SELECT email FROM contato WHERE email='".$email."'";
 $result = $con->query($sql);
 
 if ($result->num_rows > 0) {
-    echo "Cadastro já existe";
     session_start();
+    header( "Location: conteudo.php" );
 }
-else {
-    echo "Cadastro não existe";
-}
-
 $con->close();
 ?>
