@@ -5,7 +5,7 @@ include "conexao.php";
 $erro=0;
 $email = $_POST['email'];
 
-$sql = "SELECT email FROM contato WHERE email='".$email."'";
+$sql = "SELECT email FROM contatos WHERE email='".$email."'";
 $result = $con->query($sql);
 
 while($row = $result->fetch_assoc()) {

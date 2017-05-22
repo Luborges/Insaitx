@@ -1,5 +1,5 @@
 <?php
-$servidor ="23.239.28.169";
+$servidor ="23.239.28.169:3306";
 $login = "insaitx";
 $senha = "insaitx";
 $banco = "insaitx";

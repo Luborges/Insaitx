@@ -33,7 +33,7 @@ if ($_SESSION['cadastrado'] != 2) {
     $cargo=$_POST['cargo'];
     $empresa = $_POST['empresa'];
 
-    $sql = "INSERT INTO contato (nome, email, ip, data, cargo, empresa)
+    $sql = "INSERT INTO contatos (nome, email, ip, data, cargo, empresa)
     VALUES ('".$nome."', '".$email."', '".get_client_ip()."', now(), '".$cargo."', '".$empresa."')";
 
     if ($con->query($sql) === TRUE) {
