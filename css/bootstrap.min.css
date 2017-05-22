@@ -8115,6 +8115,22 @@ footer{
     display: none;
 }
 
+.noticia p{
+    color: #7f848b;
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.noticia h1{
+     font-weight: 700;
+     color: rgba(76, 76, 76, 0.9)   
+}
+
+.noticia a{
+    color: rgba(76, 76, 76, 0.9);
+    font-weight: bold;
+}
+
 @media (min-width: 320px) and (max-width: 568px){
     header h1{
         font-size: 20px;
