@@ -1,4 +1,4 @@
-<script src="jquery/jquery-3.2.1.min.js"></script>
+
 <script type="text/javascript">
     function verificarEmail() {
     var email = prompt("Entre com o e-mail");

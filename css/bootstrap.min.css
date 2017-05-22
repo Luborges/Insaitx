@@ -5452,8 +5452,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
     border-color: #e7e7e7;
-    display: table-cell !important;
-    vertical-align: middle;
 }
 
 .navbar-default .navbar-nav>.open>a,
@@ -8150,16 +8148,94 @@ footer{
 .realizado{
     margin-right: 10px;
 }
-
-.menu-table{
-    display: table;
+.navbar-right{
+    margin-top: 50px;
 }
 
-@media (min-width: 320px) and (max-width: 568px){
-    header h1{
+@media (min-width: 320px) and (max-width: 479px){
+    .conteudo h1{
         font-size: 20px;
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    .logo{
+        max-width: 50%;
+        margin-right: 65px;
+    }
+
+    .navbar-toggle{
+        margin-top: 23px;
+    }
+
+    .navbar-right li{
+    text-align: center;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 567px){
+    .conteudo h1{
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .logo{
+        max-width: 35%;
+        margin-right: 200px;
+    }
+
+    .navbar-toggle{
+        margin-top: 26px;
+    }
+
+    .navbar-right li{
+    text-align: center;
+    }
+
+}
+
+@media (min-width: 568px) and (max-width: 599px){
+    .conteudo h1{
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .logo{
+        max-width: 28%;
+        margin-right: 310px;
+    }
+
+    .navbar-toggle{
+        margin-top: 26px;
+    }
+
+    .navbar-right li{
+    text-align: center;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 767px){
+    .conteudo h1{
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .logo{
+        max-width: 28%;
+        margin-right: 310px;
+    }
+
+    .navbar-toggle{
+        margin-top: 26px;
+    }
+
+    .navbar-right li{
+    text-align: center;
     }
 
 }
