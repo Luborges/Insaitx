@@ -10,39 +10,31 @@
 </head>
 <body>
 <?php include "topo.php"; ?>
-<section class="noticia">
+<section>
 	<div class="container">
 		<div class="row">
 		  <div class="col-md-8 col-md-8 col-md-offset-2">
-		        <h1>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</h1>
+		        <h1>Sobre nós</h1>
 		        <p>
-		          Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
-		          Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.... <a href="#" class="leia">Leia Mais</a><span class="conteudo">
-		          	 Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker....
-		          </span>
+		            A FCamara Formação e Consultoria iniciou suas atividades em 2008 com o objetivo de servir com excelência as demandas de verificação de desempenho de aplicações e organização de times de desenvolvimento. Hoje, somos referência em transformação digital através de um método próprio, o High Performance Team, que ajuda empresas a desenvolver projetos e ideias de negócio de forma mais eficiente, aumentando suas chances de sucesso em mais de 60%, quando comparadas com modelos tradicionais. Inovação, tecnologia e empreendedorismo fazem parte de quem somos. Queremos ser uma empresa útil e funcional. Útil porque possuímos serviços e produtos necessários. Funcional porque nossos serviços e produtos realmente solucionam e representam valor agregado ao Cliente. Venha fazer parte do #SangueLaranja. Seja um de nossos clientes ou consultores. Aqui suas ideias tem valor!
 		        </p>
 		  </div>
 		</div>
 	</div>
 </section>
+<?php
+session_start();
+if ($_SESSION['cadastrado']==1) {
+	echo "<div class='col-md-12 form'>";
+	echo "<h2>Fique atualizado</h2>";
+	echo "<p>Se cadastre aqui para mais conteúdo</p></div>";
+	include "form.php";
+}
+else{
+	echo "Conteúdo para cadastrados";
+}
+?>
+
 <?php include "footer.php"; ?>
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"  data-backdrop="static">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Para continuar vendo o conteúdo, preencha o formulário abaixo</h4>
-      </div>
-      <div class="modal-body">
-        <?php include "form.php"; ?>
-      </div>
-    </div>
-  </div>
-</div>
-<script>
-	$(".leia").click(function () {
-		$('#myModal').modal('show');
-	})
-</script>
 </body>
 </html>

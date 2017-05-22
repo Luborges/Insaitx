@@ -1,8 +1,18 @@
 <script src="jquery/jquery-3.2.1.min.js"></script>
 <script type="text/javascript">
     function verificarEmail() {
-    document.write("<form name='formCadastrado' class='col-md-6' method='post' action='cadastrado.php'> <br> <div class='form-group'><input type='text' class='form-control' name='email' class='email' placeholder='E-mail' size=50/> <input type='submit' name='cadastrado' value='Enviar' class='pull-right btn btn-default'/> </div></form>")
-    }
+    var email = prompt("Entre com o e-mail");
+
+    $.ajax({
+		type: "POST",
+		url: "cadastrado.php",
+		data: {email:email},
+		success: function(resposta){
+			alert(resposta);
+	        $("#email").val('');
+	}
+});
+}
 </script>
 <script type="text/javascript">	
 function emailValido(email) {
@@ -30,7 +40,6 @@ function verificarFormulario(){
 	  bootbox.alert("Digite o seu e-mail corretamente");
 	}
 	else{
-
 		$.ajax({
 				type: "POST",
 				url: "cadastro.php",

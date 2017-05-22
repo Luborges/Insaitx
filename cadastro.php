@@ -1,6 +1,7 @@
 ﻿<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <?php
-include "cadastrado.php";
+session_start();
+//include "cadastrado.php";
 
 function get_client_ip() {
 $ip = '';
@@ -22,7 +23,7 @@ else
 return $ip;
 }
 
-if (session_status() == PHP_SESSION_NONE) {
+if (session_status() == 1) {
     include "conexao.php";
     $erro=0;
     $nome = $_POST['nome'];
@@ -34,16 +35,14 @@ if (session_status() == PHP_SESSION_NONE) {
     VALUES ('".$nome."', '".$email."', '".get_client_ip()."', now(), '".$cargo."', '".$empresa."')";
 
     if ($con->query($sql) === TRUE) {
-        session_start();
-        header( "Location: conteudo.php" );
+        $_SESSION['cadastrado']=2;
+        return true;
     } 
 
     $con->close();
 }
 else{
-    echo "<script type=\'text/javascript\'> prompt('E-mail já cadastrado'); </script>";
-    echo "E-mail ja cadastrado";
-    header( "Location: conteudo.php" );
+    $_SESSION['cadastrado']=2;
 }
 
 ?>

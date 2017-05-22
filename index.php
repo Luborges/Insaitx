@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php session_start();
+	$_SESSION['cadastrado']=1;
+?>
 <html lang="pt-br" dir="ltr">
 <head>
 	<meta charset="UTF-8">
@@ -19,7 +22,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		        <p><a href="conteudo.php" class="btn btn-default" role="button">Button</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -29,7 +32,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -39,7 +42,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -49,7 +52,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -59,7 +62,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -69,7 +72,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -79,7 +82,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -89,7 +92,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -99,7 +102,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -116,9 +119,12 @@
 <p>Se cadastre aqui para mais conteúdo</p>
 <?php include "form.php"; ?>
 </div>
-	</div>
-	</div>
+</div>
+</div>
 </section>
+
+
+
 <?php include "footer.php"; ?>
 </body>
 </html>
