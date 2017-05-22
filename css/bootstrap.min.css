@@ -5392,7 +5392,9 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default {
-    background-color: transparent;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #ccc;
+    border-radius: 0;
 }
 
 .navbar-default .navbar-brand {
@@ -5410,7 +5412,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #fff;
+    color: #999;
 }
 
 .navbar-default .navbar-nav>li>a:focus,
@@ -5423,7 +5425,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
     color: #555;
-    background-color: #e7e7e7
+    background-color: #e7e7e7;
 }
 
 .navbar-default .navbar-nav>.disabled>a,
@@ -5448,7 +5450,9 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-    border-color: #e7e7e7
+    border-color: #e7e7e7;
+    display: table-cell !important;
+    vertical-align: middle;
 }
 
 .navbar-default .navbar-nav>.open>a,
@@ -8037,28 +8041,21 @@ button.close {
 
 /*Custom*/
 
-header{
+
+.conteudo h1{
+    font-family: Sketchy, sans-serif;
+    font-weight: bold;
+    color: #747474;
     text-align: center;
-    height: 300px;
-    background-image: url("../img/startup.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding: 10px 0 30px 0;
 }
 
-.menu-table{
-    margin-top: 15px;
+.noticia h1{
+    font-family: Sketchy, sans-serif;
+    font-weight: bold;
+    color: #747474;
     text-align: center;
-}
-
-.cor{
-    height: 300px;
-    background-color: rgba(76, 76, 76, 0.9);
-}
-
-header h1{
-    margin-top: 80px; 
-    color: #fff;
-    text-shadow: 1px 1px 1px #ccc;
+    padding: 10px 0 30px 0;
 }
 
 .conteudo{
@@ -8066,6 +8063,7 @@ header h1{
 }
 
 .thumbnail h3{
+    font-family: Sketchy, sans-serif;
     font-weight: 700;
     color: #B2B2B2;
 }
@@ -8080,12 +8078,15 @@ header h1{
     color: #fff;
 }
 
-.form h2, .form p{
-    text-shadow: 1px 1px 1px #4d4d4d;
+.form h2{
+   font-family: Sketchy, sans-serif;
+   color: #747474;
+   font-weight: bold;
 }
 
 .form p{
     font-size: 18px;
+    color: #747474;
 }
 
 .form form{
@@ -8105,13 +8106,24 @@ footer{
     background-color: #4C4C4C; 
 }
 
+@font-face {
+  font-family: 'Sketchy';
+    src: url('../fonts/Sketchy.eot');
+    src: url('../fonts/Sketchy.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Sketchy.woff2') format('woff2'),
+         url('../fonts/Sketchy.woff') format('woff'),
+         url('../fonts/Sketchy.svg#Sketchy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .modal-body .col-md-6{
         float: none;
         margin: 0 auto;
         margin-bottom: 50px;
 }
 
-.conteudo{
+.conteudoTotal{
     display: none;
 }
 
@@ -8129,6 +8141,14 @@ footer{
 .noticia a{
     color: rgba(76, 76, 76, 0.9);
     font-weight: bold;
+}
+
+.realizado{
+    margin-right: 10px;
+}
+
+.menu-table{
+    display: table;
 }
 
 @media (min-width: 320px) and (max-width: 568px){

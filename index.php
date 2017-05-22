@@ -16,13 +16,16 @@
 <section class="conteudo">
 	<div class="container">
 		<div class="row">
+		<div class="col-md-12">
+			<h1>Neque porro quisquam est qui dolorem ipsum quia dolor</h1>
+		</div>
 		  <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
 		      <img src="img/text.jpg" alt="...">
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="conteudo.php" class="btn btn-default" role="button">Button</a></p>
+		        <p><a href="conteudo.php" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -32,7 +35,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -42,37 +45,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
-		      </div>
-		    </div>
-		  </div>
-		  <div class="col-sm-6 col-md-4">
-		    <div class="thumbnail">
-		      <img src="img/text.jpg" alt="...">
-		      <div class="caption">
-		        <h3>Thumbnail label</h3>
-		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
-		      </div>
-		    </div>
-		  </div>
-		    <div class="col-sm-6 col-md-4">
-		    <div class="thumbnail">
-		      <img src="img/text.jpg" alt="...">
-		      <div class="caption">
-		        <h3>Thumbnail label</h3>
-		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
-		      </div>
-		    </div>
-		  </div>
-		    <div class="col-sm-6 col-md-4">
-		    <div class="thumbnail">
-		      <img src="img/text.jpg" alt="...">
-		      <div class="caption">
-		        <h3>Thumbnail label</h3>
-		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -82,7 +55,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -92,7 +65,7 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -102,7 +75,37 @@
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="img/text.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Thumbnail label</h3>
+		        <p>...</p>
+		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		      </div>
+		    </div>
+		  </div>
+		    <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="img/text.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Thumbnail label</h3>
+		        <p>...</p>
+		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		      </div>
+		    </div>
+		  </div>
+		    <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="img/text.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Thumbnail label</h3>
+		        <p>...</p>
+		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -111,20 +114,16 @@
 	</div>
 </section>
 <section class="cadastro">
-	<div class="container">
-	<div class="row">
-
+<div class="container">
+<div class="row">
 <div class="col-md-12 form">
 <h2>Fique atualizado</h2>
-<p>Se cadastre aqui para mais conteúdo</p>
-<?php include "form.php"; ?>
+<p>Cadastre-se aqui para mais conteúdo</p>
+<?php include "form.php";?>
 </div>
 </div>
 </div>
 </section>
-
-
-
 <?php include "footer.php"; ?>
 </body>
 </html>

@@ -53,5 +53,5 @@ function verificarFormulario(){
 	<div class="form-group"><input type='text' class="form-control" name='cargo' class='cargo' placeholder='Cargo (Opcional)' size=50/></div>
 	<div class="form-group"><input type='text' class="form-control" name='empresa' class='empresa' placeholder='Empresa (Opcional)' size=50/></div>
 	<div class="form-group"><input type="button" id='Cadastrar' value="Cadastrar" class="pull-right btn btn-default mostra" onclick="verificarFormulario()"></div>
-	<input type="button" name="cadastrado" value="Já sou cadastrado" class="pull-right btn btn-default" onclick="verificarEmail()" />
+	<input type="button" name="cadastrado" value="Já sou cadastrado" class="pull-right btn btn-default realizado" onclick="verificarEmail()" />
 </form>

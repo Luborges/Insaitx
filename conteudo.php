@@ -10,7 +10,7 @@
 </head>
 <body>
 <?php include "topo.php"; ?>
-<section>
+<section class="noticia">
 	<div class="container">
 		<div class="row">
 		  <div class="col-md-8 col-md-8 col-md-offset-2">
