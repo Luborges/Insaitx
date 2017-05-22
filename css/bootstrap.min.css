@@ -8043,7 +8043,7 @@ button.close {
 
 
 .conteudo h1{
-    font-family: Sketchy, sans-serif;
+    font-family: Pasajero, sans-serif;
     font-weight: bold;
     color: #747474;
     text-align: center;
@@ -8051,7 +8051,7 @@ button.close {
 }
 
 .noticia h1{
-    font-family: Sketchy, sans-serif;
+    font-family: Pasajero, sans-serif;
     font-weight: bold;
     color: #747474;
     text-align: center;
@@ -8063,7 +8063,7 @@ button.close {
 }
 
 .thumbnail h3{
-    font-family: Sketchy, sans-serif;
+    font-family: Pasajero, sans-serif;
     font-weight: 700;
     color: #B2B2B2;
 }
@@ -8079,7 +8079,7 @@ button.close {
 }
 
 .form h2{
-   font-family: Sketchy, sans-serif;
+   font-family: Pasajero, sans-serif;
    color: #747474;
    font-weight: bold;
 }
@@ -8107,12 +8107,12 @@ footer{
 }
 
 @font-face {
-  font-family: 'Sketchy';
-    src: url('../fonts/Sketchy.eot');
-    src: url('../fonts/Sketchy.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Sketchy.woff2') format('woff2'),
-         url('../fonts/Sketchy.woff') format('woff'),
-         url('../fonts/Sketchy.svg#Sketchy') format('svg');
+  font-family: 'Pasajero';
+    src: url('../fonts/Pasajero.eot');
+    src: url('../fonts/Pasajero.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Pasajero.woff2') format('woff2'),
+         url('../fonts/Pasajero.woff') format('woff'),
+         url('../fonts/Pasajero.svg#Pasajero') format('svg');
     font-weight: normal;
     font-style: normal;
 }

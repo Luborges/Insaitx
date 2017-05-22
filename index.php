@@ -117,7 +117,7 @@
 <div class="container">
 <div class="row">
 <div class="col-md-12 form">
-<h2>Fique atualizado</h2>
+<h2>fique atualizado</h2>
 <p>Cadastre-se aqui para mais conteúdo</p>
 <?php include "form.php";?>
 </div>
