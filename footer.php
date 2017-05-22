@@ -6,4 +6,5 @@
 </div>
 <script src="jquery/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/bootbox.min.js"></script>
 </footer>

@@ -19,15 +19,15 @@ function verificarFormulario(){
 	var empresa = $('#empresa').val();
 
 	if (nome == "") {
-	  alert("Digite o seu nome");
+	  bootbox.alert("Digite o seu nome");
 	}
 
 	else if (email == ""){
-	 alert("Digite o seu e-mail");
+	  bootbox.alert("Digite o seu e-mail");
 	}
 
 	else if (!emailValido(email)){
-	 alert("Digite o seu e-mail corretamente");
+	  bootbox.alert("Digite o seu e-mail corretamente");
 	}
 	else{
 
@@ -43,7 +43,7 @@ function verificarFormulario(){
 	                $("#empresa").val('');
 			}
 		});
-		alert("Cadastrado");
+		 bootbox.alert("Cadastrado");
 	}
 }
 </script>
