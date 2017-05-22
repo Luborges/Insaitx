@@ -24,22 +24,34 @@
 </section>
 <?php
 session_start();
-if ($_SESSION["cadastrado"] ==null){
-	$_SESSION["cadastrado"] =3;
+if (isset($_SESSION["cadastrado"])==false){
+	$_SESSION['cadastrado']=3;
+	echo "<section class='cadastro'>";
+	echo "<div class='container'>";
+	echo "<div class='row'>";
+	echo "<div class='col-md-12 form'>";
+	echo "<h2>fique atualizado</h2>";
+	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
+	include "form.php";
+	echo "</div>";
+	echo "</div>";
+	echo "</div>";
+	echo "</section>";
+
 }
 elseif ($_SESSION['cadastrado']!=2) {
 	$_SESSION['cadastrado']=3;
-echo "<section class='cadastro'>";
-echo "<div class='container'>";
-echo "<div class='row'>";
-echo "<div class='col-md-12 form'>";
-echo "<h2>fique atualizado</h2>";
-echo "<p>Cadastre-se aqui para mais conteúdo</p>";
-include "form.php";
-echo "</div>";
-echo "</div>";
-echo "</div>";
-echo "</section>";
+	echo "<section class='cadastro'>";
+	echo "<div class='container'>";
+	echo "<div class='row'>";
+	echo "<div class='col-md-12 form'>";
+	echo "<h2>fique atualizado</h2>";
+	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
+	include "form.php";
+	echo "</div>";
+	echo "</div>";
+	echo "</div>";
+	echo "</section>";
 }
 else{
 	echo "<section class='noticia'>
