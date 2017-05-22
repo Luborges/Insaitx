@@ -8248,7 +8248,13 @@ footer{
     }
 }
 
-
+@media (min-width: 601px) and (max-width: 800px){
+    .logo{
+        max-width: 70%;
+        position: relative;
+        right: 65px;
+    }
+}
 
 
 
