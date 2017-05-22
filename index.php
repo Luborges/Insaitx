@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <?php session_start();
-	$_SESSION['cadastrado']=1;
+	if ($_SESSION["cadastrado"] ==null){
+		$_SESSION['cadastrado']=1;
+	}
 ?>
 <html lang="pt-br" dir="ltr">
 <head>

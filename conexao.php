@@ -1,8 +1,8 @@
 <?php
-$servidor ="localhost";
+$servidor ="127.0.0.1";
 $login = "root";
 $senha = "";
-$banco = "insitx";
+$banco = "insaitx";
 
 // Create connection
 $con = new mysqli($servidor, $login, $senha, $banco);

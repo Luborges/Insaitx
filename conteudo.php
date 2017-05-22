@@ -24,14 +24,37 @@
 </section>
 <?php
 session_start();
-if ($_SESSION['cadastrado']==1) {
-	echo "<div class='col-md-12 form'>";
-	echo "<h2>Fique atualizado</h2>";
-	echo "<p>Se cadastre aqui para mais conteúdo</p></div>";
-	include "form.php";
+if ($_SESSION["cadastrado"] ==null){
+	$_SESSION["cadastrado"] =3;
+}
+elseif ($_SESSION['cadastrado']!=2) {
+	$_SESSION['cadastrado']=3;
+echo "<section class='cadastro'>";
+echo "<div class='container'>";
+echo "<div class='row'>";
+echo "<div class='col-md-12 form'>";
+echo "<h2>fique atualizado</h2>";
+echo "<p>Cadastre-se aqui para mais conteúdo</p>";
+include "form.php";
+echo "</div>";
+echo "</div>";
+echo "</div>";
+echo "</section>";
 }
 else{
-	echo "Conteúdo para cadastrados";
+	echo "<section class='noticia'>
+	<div class='container'>
+		<div class='row'>
+		  <div class='col-md-8 col-md-8 col-md-offset-2'>
+		        <h2>Conteúdo para cadastrados</h2>
+		        <p>
+		            Conteúdo para cadastrados
+		        </p>
+		  </div>
+		</div>
+	</div>
+</section>
+";
 }
 ?>
 

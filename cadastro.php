@@ -4,6 +4,7 @@ session_start();
 //include "cadastrado.php";
 
 function get_client_ip() {
+
 $ip = '';
 if (isset($_SERVER['HTTP_CLIENT_IP']))
     $ip = $_SERVER['HTTP_CLIENT_IP'];
@@ -22,9 +23,10 @@ else
 
 return $ip;
 }
-
-if (session_status() == 1) {
+    
+if ($_SESSION['cadastrado'] != 2) {
     include "conexao.php";
+    echo "a";
     $erro=0;
     $nome = $_POST['nome'];
     $email = $_POST['email'];
