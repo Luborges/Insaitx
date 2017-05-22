@@ -5414,6 +5414,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-default .navbar-nav>li>a {
     color: #999;
     font-family: Pasajero, sans-serif;
+    text-transform: lowercase;
+    font-weight: bold;
 }
 
 .navbar-default .navbar-nav>li>a:focus,
@@ -8065,8 +8067,8 @@ button.close {
 .thumbnail h3{
     font-family: Pasajero, sans-serif;
     font-weight: 700;
-    color: #B2B2B2;
-    font-size: 18px;
+    color: #999;
+    font-size: 15px;
 }
 
 .cadastro{

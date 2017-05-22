@@ -15,9 +15,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Categoria</a></li>
-        <li><a href="#">Categoria</a></li>
-        <li><a href="#">Categoria</a></li>
+        <li><a href="#">TODA EMPRESA PRECISA SABER</a></li>
+        <li><a href="#">VAREJO, E-COMMERCE, TURISMO</a></li>
+        <li><a href="#">PORTO, LOGÍSTICA, OUTRAS INDÚSTRIAS</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

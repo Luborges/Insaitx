@@ -19,20 +19,50 @@
 	<div class="container">
 		<div class="row">
 		<div class="col-md-12">
-			<h1>Neque porro quisquam est qui dolorem ipsum quia dolor</h1>
+			<h1>Como vai a saúde da sua empresa?</h1>
 		</div>
 		  <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
-		      <img src="img/text.jpg" alt="...">
+		      <img src="img/box1.jpg" alt="...">
 		      <div class="caption">
-		        <h3>Thumbnail label</h3>
-		        <p>...</p>
+		        <h3>Como falir sua empresa em 6 passos</h3>
+		        <p></p>
 		        <p><a href="conteudo.php" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
 		    <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
+		      <img src="img/box2.jpg" alt="...">
+		      <div class="caption">
+		        <h3>O erro que todo empreendedor já cometeu</h3>
+		        <p></p>
+		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		      </div>
+		    </div>
+		  </div>
+		    <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="img/box3.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Maneiras de aumentar seu faturamento</h3>
+		        <p></p>
+		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		      </div>
+		    </div>
+		  </div>
+		  <!--<div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="img/text.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Thumbnail label</h3>
+		        <p>...</p>
+		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		      </div>
+		    </div>
+		  </div>
+		    <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
 		      <img src="img/text.jpg" alt="...">
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
@@ -80,37 +110,7 @@
 		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
-		  </div>
-		  <div class="col-sm-6 col-md-4">
-		    <div class="thumbnail">
-		      <img src="img/text.jpg" alt="...">
-		      <div class="caption">
-		        <h3>Thumbnail label</h3>
-		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
-		      </div>
-		    </div>
-		  </div>
-		    <div class="col-sm-6 col-md-4">
-		    <div class="thumbnail">
-		      <img src="img/text.jpg" alt="...">
-		      <div class="caption">
-		        <h3>Thumbnail label</h3>
-		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
-		      </div>
-		    </div>
-		  </div>
-		    <div class="col-sm-6 col-md-4">
-		    <div class="thumbnail">
-		      <img src="img/text.jpg" alt="...">
-		      <div class="caption">
-		        <h3>Thumbnail label</h3>
-		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
-		      </div>
-		    </div>
-		  </div>
+		  </div>-->
 			
 		</div>
 	</div>
