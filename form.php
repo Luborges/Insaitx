@@ -7,10 +7,6 @@
 		type: "POST",
 		url: "cadastrado.php",
 		data: {email:email},
-		success: function(resposta){
-			alert(resposta);
-	        $("#email").val('');
-	}
 });
 }
 </script>
@@ -29,30 +25,23 @@ function verificarFormulario(){
 	var empresa = $('#empresa').val();
 
 	if (nome == "") {
-	  bootbox.alert("Digite o seu nome");
+	  alert("Digite o seu nome");
 	}
 
 	else if (email == ""){
-	  bootbox.alert("Digite o seu e-mail");
+	 alert("Digite o seu e-mail");
 	}
 
 	else if (!emailValido(email)){
-	  bootbox.alert("Digite o seu e-mail corretamente");
+	 alert("Digite o seu e-mail corretamente");
 	}
 	else{
 		$.ajax({
 				type: "POST",
 				url: "cadastro.php",
 				data: {nome:nome, email:email, cargo:cargo, empresa:empresa},
-				success: function(resposta){
-					alert(resposta);
-					$("#nome").val('');
-	                $("#email").val('');
-	                $("#cargo").val('');
-	                $("#empresa").val('');
-			}
 		});
-		 bootbox.alert("Cadastrado");
+		alert("Cadastrado");
 	}
 }
 </script>
