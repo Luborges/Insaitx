@@ -1,7 +1,7 @@
 <?php
-$servidor ="127.0.0.1";
-$login = "root";
-$senha = "";
+$servidor ="23.239.28.169";
+$login = "insaitx";
+$senha = "insaitx";
 $banco = "insaitx";
 
 // Create connection

@@ -1,7 +1,7 @@
 ﻿<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <?php
 session_start();
-//include "cadastrado.php";
+include "cadastrado.php";
 
 function get_client_ip() {
 

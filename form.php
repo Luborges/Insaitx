@@ -23,7 +23,7 @@ function verificarFormulario(){
 	var email = $('#email').val();
 	var cargo = $('#cargo').val();
 	var empresa = $('#empresa').val();
-	var sessao = "<?php echo $_SESSION['cadastrado'];?>"
+	var sessao = "<?php echo $_SESSION['cadastrado'];?>";
 
 	if (nome == "") {
 	  alert("Digite o seu nome");
