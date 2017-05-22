@@ -15,8 +15,11 @@
 		<div class="row">
 		  <div class="col-md-8 col-md-8 col-md-offset-2">
 		        <h1>Sobre nós</h1>
-		        <p>
-		"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
+			        <p>
+			Insaitx é um novo canal de comunicação feito por um time engajado e atuante no mercado nacional. Somos motivados pelo crescimento pessoal e pela busca de resultados para as empresas. 
+			Nossa intenção com esse blog é ajudar você, micro e pequeno empresário, a ter um panorama melhor sobre o mercado nacional, de uma maneira simples, divertida e ''sagaiX'', como todo bom carioca.</p>
+
+			<p>Caso não deu pra perceber, nosso mascote, o DaPraia, é um carioca programador, web designer e surfista nas horas vagas. Um cara cheio de INSAITX maneiros que vão ajudar você a crescer seu negócio. =)</p>
 		        </p>
 		  </div>
 		</div>
