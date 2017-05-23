@@ -32,7 +32,7 @@
 
 </script>
 <script>
-	$('.parallax-window').parallax({imageSrc: 'http://insaitx.com.br/img/background.png'});
-	$('.parallax-window2').parallax({imageSrc: 'http://insaitx.com.br/img/footer.png'});
+	$('.parallax-window').parallax({imageSrc: '/insatix/Insaitx/img/background.png'});
+	$('.parallax-window2').parallax({imageSrc: '/insatix/Insaitx/img/footer.png'});
 </script>
 </footer>
