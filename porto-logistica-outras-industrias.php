@@ -21,7 +21,7 @@
 		<div class="col-md-12">
 			<h1>porto, logística, outras indústrias</h1>
 		</div>
-		  <div class="col-sm-6 col-md-4">
+		 <!-- <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
 		      <img src="img/ecommercebox1.png" alt="...">
 		      <div class="caption">

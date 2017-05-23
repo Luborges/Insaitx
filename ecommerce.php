@@ -14,9 +14,9 @@
 	<div class="container">
 		<div class="row">
 		  <div class="col-md-8 col-md-8 col-md-offset-2">
-		        <h1>e-commerce</h1>
+		       <h1>e-commerce</h1>
 
-			        <p>Mais de 700.000 pessoas são empregadas no setor que faturou R$53 BI em 2016</p>
+			<p>Mais de 700.000 pessoas são empregadas no setor que faturou R$53 BI em 2016</p>
 
 			<p>Para o ano atual, a meta é somar outros R$7 bilhões ao montante, totalizando R$60BI - um dos maiores mercados da economia nacional. Os dados são da ABComm (Associação Brasileira de Comércio Eletrônico). Eles afirmam ainda um número recorde na casa dos 200 milhões de pedidos de compras feitos online pelo país.
 		        </p>

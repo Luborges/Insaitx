@@ -27,7 +27,7 @@
 		      <div class="caption">
 		        <h3>Como falir sua empresa em 6 passos</h3>
 		        <p></p>
-		        <p><a href="como-falir-sua-empresa-em-6passos.php" class="btn btn-default" role="button">Leia mais</a></p>
+		        <p><a href="como-falir-sua-empresa-em-seis-passos.php" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -41,7 +41,7 @@
 		      </div>
 		    </div>
 		  </div>
-		    <div class="col-sm-6 col-md-4">
+		   <!-- <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
 		      <img src="img/box3.jpg" alt="...">
 		      <div class="caption">
