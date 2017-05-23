@@ -23,7 +23,7 @@ function verificarFormulario(){
 	var email = $('#email').val();
 	var cargo = $('#cargo').val();
 	var empresa = $('#empresa').val();
-	//var sessao = "<?php echo $_SESSION['cadastrado'];?>";
+	var sessao = "<?php echo $_SESSION['cadastrado'];?>";
 
 	if (nome == "") {
 	  alert("Digite o seu nome");
@@ -37,23 +37,23 @@ function verificarFormulario(){
 	 alert("Digite o seu e-mail corretamente");
 	}
 	else{
+
 		$.ajax({
 				type: "POST",
 				url: "cadastro.php",
 				data: {nome:nome, email:email, cargo:cargo, empresa:empresa},
-
 		});
-		alert("Muito obrigado! Te enviaremos um e-mail para te informar do cadastro!");
+		alert("Cadastrado");
 
-	//	if (sessao==3){
-	//		location.reload(); 
-//		}
+		if (sessao==3){
+			location.reload(); 
+		}
 
 	}
 }
 </script>
 
-<form name='formCadastro' class="col-md-12" method='post'>
+<form name='formCadastro' class="col-md-6" method='post'>
 	<div class="form-group"><input type='text' class="form-control" id='nome' name='nome' class='nome' placeholder='Nome completo' size=50/></div>
 	<div class="form-group"><input type='text' class="form-control" id='email' name='email' class='email' placeholder='E-mail' size=50/></div>
 	<div class="form-group"><input type='text' class="form-control" name='cargo' class='cargo' placeholder='Cargo (Opcional)' size=50/></div>
