@@ -53,7 +53,7 @@ function verificarFormulario(){
 }
 </script>
 
-<form name='formCadastro' class="col-md-6" method='post'>
+<form name='formCadastro' class="col-md-12" method='post'>
 	<div class="form-group"><input type='text' class="form-control" id='nome' name='nome' class='nome' placeholder='Nome completo' size=50/></div>
 	<div class="form-group"><input type='text' class="form-control" id='email' name='email' class='email' placeholder='E-mail' size=50/></div>
 	<div class="form-group"><input type='text' class="form-control" name='cargo' class='cargo' placeholder='Cargo (Opcional)' size=50/></div>
