@@ -8262,6 +8262,17 @@ footer{
     }
 }
 
+.noticia ol{
+    padding-left: 12px;
+}
+
+.noticia ol li{
+    color: #7f848b;
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
 
 
 /*# sourceMappingURL=bootstrap.min.css.map */
