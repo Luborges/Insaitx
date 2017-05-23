@@ -23,7 +23,7 @@ function verificarFormulario(){
 	var email = $('#email').val();
 	var cargo = $('#cargo').val();
 	var empresa = $('#empresa').val();
-	var sessao = "<?php echo $_SESSION['cadastrado'];?>";
+	//var sessao = "<?php echo $_SESSION['cadastrado'];?>";
 
 	if (nome == "") {
 	  alert("Digite o seu nome");
@@ -37,17 +37,17 @@ function verificarFormulario(){
 	 alert("Digite o seu e-mail corretamente");
 	}
 	else{
-
 		$.ajax({
 				type: "POST",
 				url: "cadastro.php",
 				data: {nome:nome, email:email, cargo:cargo, empresa:empresa},
-		});
-		alert("Cadastrado");
 
-		if (sessao==3){
-			location.reload(); 
-		}
+		});
+		alert("Muito obrigado! Te enviaremos um e-mail para te informar do cadastro!");
+
+	//	if (sessao==3){
+	//		location.reload(); 
+//		}
 
 	}
 }
