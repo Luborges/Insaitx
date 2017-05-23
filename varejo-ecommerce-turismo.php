@@ -41,7 +41,7 @@
 		      </div>
 		    </div>
 		  </div>
-		    <div class="col-sm-6 col-md-4">
+		    <!--<div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
 		      <img src="img/box3.jpg" alt="...">
 		      <div class="caption">

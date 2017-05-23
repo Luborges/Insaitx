@@ -2,7 +2,7 @@
 <html lang="pt-br" dir="ltr">
 <head>
 	<meta charset="UTF-8">
-	<title>Insaitx - Como falir sua empresa em 6 passos</title>
+	<title>Insaitx -  O Erro que TODO Empreendedor já cometeu</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   	<meta name="robots" content="noindex nofollow">
