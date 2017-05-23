@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!DOCTYPE html>
 <html lang="pt-br" dir="ltr">
 <head>
@@ -34,7 +35,6 @@
 	</div>
 </section>
 <?php
-session_start();
 if (isset($_SESSION["cadastrado"])==false){
 	$_SESSION['cadastrado']=3;
 	echo "<section class='cadastro'>";
