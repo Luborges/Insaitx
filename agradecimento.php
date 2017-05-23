@@ -19,12 +19,13 @@
 </head>
 <body>
 <?php include "topo.php"; ?>
-<section class="agradecimento">
+<section class="noticia agradecimeto">
 	<div class="container">
 		<div class="row">
 		  <div class="col-md-8 col-md-8 col-md-offset-2">
-		        <h1>Agradecimento</h1>
-			    <p>Obrigado por ser cadastrado em nosso site.</p>
+		        <h1>bem vindo ao insaitx</h1>
+			    <p class="agradecimento">Agora você faz parte do grupo que está sempre em busca de informações que possibilitem a melhoria do seu negócio! 
+				Sempre que algum conteúdo for publicado nós vamos te informar, então não se preocupe em perder nenhuma novidade!</p>
 		  </div>
 		</div>
 	</div>

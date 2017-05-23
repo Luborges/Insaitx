@@ -5,11 +5,11 @@
 <p><a href="sobre-nos.php">Sobre Nós</a> | <a href="mailto:contato@insaitx.com.br">contato@insaitx.com.br</a></p>
                 <div class="col-lg-12">
                     <ul class="list-inline">
-                        <li><a href="#" target="blank"><i class="fa fa-facebook fa-fw fa-2x"></i></a>
+                        <li><a href="https://www.facebook.com/Insaitx-201855680335398/" target="blank"><i class="fa fa-facebook fa-fw fa-2x"></i></a>
                         </li>
-                        <li><a href="#" target="blank"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                        <li><a href="https://www.instagram.com/insaitx/" target="blank"><i class="fa fa fa-instagram fa-fw fa-2x"></i></a>
                         </li>
-                        <li><a href="#" target="blank"><i class="fa fa-google-plus fa-fw fa-2x"></i></a>
+                        <li><a href="https://www.linkedin.com/in/insaitx-consultoria-122982143/" target="blank"><i class="fa fa-linkedin-square fa-fw fa-2x"></i></a>
                         </li>
                     </ul>
                 </div>
