@@ -8260,13 +8260,20 @@ footer{
         padding: 5px 7px;
         font-size: 11px;
     }
+    .navbar-right {
+    float: none !important;
+    width: 120%;
+    position: relative;
+    top: 35px;
+    right: 70px;
+}
 }
 
 .noticia ol{
     padding-left: 12px;
 }
 
-.noticia ol li{
+.noticia ol li, .noticia ul li{
     color: #7f848b;
     line-height: 30px;
     font-weight: 300;
