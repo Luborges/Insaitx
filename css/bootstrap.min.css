@@ -8074,6 +8074,7 @@ button.close {
 .cadastro{
     background-color: #D9D9D9;
     padding-bottom: 30px;
+    padding-top: 5px;
 }
 
 .form{
@@ -8104,8 +8105,6 @@ button.close {
 
 footer{
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
     color: #fff;
 }
 
@@ -8190,6 +8189,20 @@ footer .social{
     text-align: center;
     }
 
+   .thumbnail .text{
+        display: none;
+    }
+    .thumbnail h3 {
+    font-size: 18px !important;
+}
+.par {
+    margin-top: 100px !important;
+}
+
+.parallax-window h1{
+    font-size: 24px
+}
+
 }
 
 @media (min-width: 480px) and (max-width: 567px){
@@ -8211,6 +8224,20 @@ footer .social{
     .navbar-right li{
     text-align: center;
     }
+   .thumbnail .text{
+        display: none;
+    }
+.thumbnail h3 {
+    font-size: 18px !important;
+}
+.par {
+    margin-top: 100px !important;
+}
+
+.parallax-window h1{
+    font-size: 24px
+}
+
 
 }
 
@@ -8233,6 +8260,18 @@ footer .social{
     .navbar-right li{
     text-align: center;
     }
+   .thumbnail .text{
+        display: none;
+    }
+.thumbnail h3 {
+    font-size: 18px !important;
+}
+.par {
+    margin-top: 100px !important;
+}
+.parallax-window h1{
+    font-size: 24px
+}
 
 }
 
@@ -8255,6 +8294,12 @@ footer .social{
     .navbar-right li{
     text-align: center;
     }
+.par {
+    margin-top: 100px;
+}
+.parallax-window h1{
+    font-size: 24px
+}
 
 }
 
@@ -8277,12 +8322,48 @@ footer .social{
         font-size: 11px;
     }
     .navbar-right {
-    float: none !important;
+     float: none !important;
     width: 120%;
     position: relative;
-    top: 35px;
-    right: 70px;
+    top: -15px;
+    right: 86px;
 }
+.form{
+    clear: both;
+}
+.text{
+    display: none;
+}
+.conteudoHome .thumbnail h3 {
+    font-size: 18px !important;
+}
+}
+
+@media (min-width: 801px) and (max-width: 960px){
+    .form {
+    text-align: center;
+    color: #fff;
+    clear: both;
+}
+.text{
+    display: none;
+}
+.conteudoHome .thumbnail h3 {
+    font-size: 18px !important;
+}
+.menu-table{
+    width: 100%;
+}
+.nav>li>a {;
+    padding: 10px 4px;
+    font-size: 13px;
+}
+}
+
+@media (min-width: 961px) and (max-width: 1024px){
+    .nav > li > a{
+            padding: 10px 4px !important;
+    }
 }
 
 .noticia ol{
@@ -8337,7 +8418,7 @@ footer .social{
 }
 
 .conteudoHome .thumbnail h3{
-        font-size: 24px !important;
+        font-size: 24px;
 }
 
 .thumbnail p{
