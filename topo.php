@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="index.php"><img src="img/insaitx.png" class="logo" alt="logo Insaitx"></a>
+      <a href="index.php"><img src="img/logo.png" class="logo" alt="logo Insaitx"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
