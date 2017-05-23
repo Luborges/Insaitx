@@ -15,7 +15,7 @@
 		<div class="row">
 		  <div class="col-md-8 col-md-8 col-md-offset-2">
 		        <h1>Como ter sucesso no Varejo</h1>
-		        <p><img src="img/blog1.png" class="img-responsive"></p>
+		        <!--<p><img src="img/blog1.png" class="img-responsive"></p>-->
 
 			        <p>Após um 2016 de péssimos resultados - o pior da história no cenário nacional - o setor espera agora, uma recuperação.</p>
 

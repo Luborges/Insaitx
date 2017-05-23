@@ -7,7 +7,7 @@
 <html lang="pt-br" dir="ltr">
 <head>
 	<meta charset="UTF-8">
-	<title>Insaitx</title>
+	<title>Insaitx - Varejo, e-commerce e turismo</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   	<meta name="robots" content="noindex nofollow">
@@ -33,11 +33,11 @@
 		  </div>
 		    <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
-		      <img src="img/box2.jpg" alt="...">
+		      <img src="img/ecommercebox2.png" alt="...">
 		      <div class="caption">
-		        <h3>O erro que todo empreendedor já cometeu</h3>
+		        <h3>e-commerce</h3>
 		        <p></p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		        <p><a href="ecommerce.php" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>

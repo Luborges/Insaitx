@@ -27,7 +27,7 @@
 		      <div class="caption">
 		        <h3>Como falir sua empresa em 6 passos</h3>
 		        <p></p>
-		        <p><a href="conteudo.php" class="btn btn-default" role="button">Leia mais</a></p>
+		        <p><a href="como-falir-sua-empresa-em-6passos.php" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -37,7 +37,7 @@
 		      <div class="caption">
 		        <h3>O erro que todo empreendedor já cometeu</h3>
 		        <p></p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		        <p><a href="o-erro-que-todo-empreendedor-ja-cometeu.php" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>

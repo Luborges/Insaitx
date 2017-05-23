@@ -7,7 +7,7 @@
 <html lang="pt-br" dir="ltr">
 <head>
 	<meta charset="UTF-8">
-	<title>Insaitx - porto, logística, outras indústrias</title>
+	<title>Insaitx - Porto, logística, outras indústrias</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   	<meta name="robots" content="noindex nofollow">
