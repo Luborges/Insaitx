@@ -7,10 +7,17 @@
 <html lang="pt-br" dir="ltr">
 <head>
 	<meta charset="UTF-8">
-	<title>Insaitx</title>
+	<title>Insaitx - Transformação Digital</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  	<meta name="robots" content="noindex nofollow">
+  	<meta name="robots" content="index follow">
+	<meta name="description" content="Insaitx é um novo canal de comunicação feito por um time engajado e atuante no mercado nacional.">
+	<meta property="og:image" content="http://insaitx.com.br/img/facebook.png"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:locale" content="pt_BR">
+	<meta property="og:url" content="http://insaitx.com.br/">
+	<meta property="og:title" content="Insaitx - Transformação Digital">
+	<meta property="og:description" content="Insaitx é um novo canal de comunicação feito por um time engajado e atuante no mercado nacional.">
   	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>

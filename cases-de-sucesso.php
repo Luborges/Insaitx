@@ -7,10 +7,10 @@
 <html lang="pt-br" dir="ltr">
 <head>
 	<meta charset="UTF-8">
-	<title>Insaitx - Porto, logística, outras indústrias</title>
+	<title>Insaitx - Cases de Sucesso</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  	<meta name="robots" content="noindex nofollow">
+  	<meta name="robots" content="index follow">
   	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
    	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
    	<style>
@@ -27,7 +27,7 @@
 	<div class="container">
 		<div class="row">
 		<div class="col-md-12">
-			<h1>porto, logística, outras indústrias<br/> <br/>Conteúdo em atualização!</h1>
+			<h1>Cases de Sucesso<br/> <br/>Conteúdo em atualização!</h1>
 		</div>
 		 <!-- <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
