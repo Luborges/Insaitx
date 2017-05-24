@@ -6,7 +6,14 @@
 	<title>Insaitx - E-COMMERCE</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  	<meta name="robots" content="noindex nofollow">
+  	<meta name="robots" content="index follow">
+   	<meta name="description" content="Para o ano atual, a meta é somar outros R$7 bilhões ao montante, totalizando R$60BI - um dos maiores mercados da economia nacional. Os dados são da ABComm (Associação Brasileira de Comércio Eletrônico). Eles afirmam ainda um número recorde na casa dos 200 milhões de pedidos de compras feitos online pelo país.">
+	<meta property="og:image" content="http://insaitx.com.br/img/facebook5.png"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:locale" content="pt_BR">
+	<meta property="og:url" content="http://insaitx.com.br/ecommerce.php">
+	<meta property="og:title" content="Insaitx - E-COMMERCE">
+	<meta property="og:description" content="Para o ano atual, a meta é somar outros R$7 bilhões ao montante, totalizando R$60BI - um dos maiores mercados da economia nacional. Os dados são da ABComm (Associação Brasileira de Comércio Eletrônico). Eles afirmam ainda um número recorde na casa dos 200 milhões de pedidos de compras feitos online pelo país.">
   	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
    	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
@@ -76,7 +83,6 @@ else{
 	<div class='container'>
 		<div class='row'>
 		  <div class='col-md-8 col-md-8 col-md-offset-2'>
-		        <h2>Conteúdo para cadastrados</h2>
 		        <p>
 		            Conteúdo para cadastrados
 		        </p>

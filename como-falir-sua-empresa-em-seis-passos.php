@@ -6,7 +6,14 @@
 	<title>Insaitx - Como falir sua empresa em 6 passos</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  	<meta name="robots" content="noindex nofollow">
+  	<meta name="robots" content="index follow">
+ 	<meta name="description" content="Para obter sucesso na sua empresa é necessário fazer exatamente o OPOSTO!">
+	<meta property="og:image" content="http://insaitx.com.br/img/facebook2.png"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:locale" content="pt_BR">
+	<meta property="og:url" content="http://insaitx.com.br/como-falir-sua-empresa-em-seis-passos.php">
+	<meta property="og:title" content="Insaitx - Como falir sua empresa em 6 passos">
+	<meta property="og:description" content="Para obter sucesso na sua empresa é necessário fazer exatamente o OPOSTO!">
   	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
    	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
    	<style>

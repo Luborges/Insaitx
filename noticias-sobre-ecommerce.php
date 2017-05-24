@@ -31,55 +31,61 @@
 		</div>
 		  <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
-		      <img src="img/ecommercebox1.png" alt="...">
+		      <img src="img/ecommercebox1.png" alt="..." class="img-responsive">
 		      <div class="caption">
 		        <h3>Como ter sucesso no Varejo</h3>
-		        <p></p>
-		        <p><a href="como-ter-sucesso-no-ecommerce.php" class="btn btn-default" role="button">Leia mais</a></p>
+		        <p><br/></p>
+		        <p><a href="como-ter-sucesso-no-varejo.php" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
 		    <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
-		      <img src="img/ecommercebox2.png" alt="...">
+		      <img src="img/ecommercebox2.png" alt="..." class="img-responsive">
 		      <div class="caption">
 		        <h3>e-commerce</h3>
-		        <p></p>
+		        <p><br/></p>
 		        <p><a href="ecommerce.php" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
-		    <!--<div class="col-sm-6 col-md-4">
+		    <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
-		      <img src="img/box3.jpg" alt="...">
+		      <img src="img/ecommercebox3.png" alt="..." class="img-responsive">
 		      <div class="caption">
-		        <h3>Maneiras de aumentar seu faturamento</h3>
+		        <h3>Como a indústria usa a inteligência competitiva do e-commerce nas estratégias de trade marketing?</h3>
 		        <p></p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		        <p><a href="como-a-industria-usa-a-inteligencia-competitiva-do-e-commerce-nas-estrategias-de-trade-marketing.php" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
-		  <!--<div class="col-sm-6 col-md-4">
+		  </div>
+		  </div>
+		  </section>
+<section class="conteudo">
+	<div class="container">
+		<div class="row">
+		  <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
-		      <img src="img/text.jpg" alt="...">
+		      <img src="img/ecommercebox4.png" alt="..." class="img-responsive">
 		      <div class="caption">
-		        <h3>Thumbnail label</h3>
-		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		        <h3>Bing, vale a pena investir?</h3>
+		        <p><br/></p>
+		        <p><a href="bing-vale-a-pena-investir.php" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
 		    <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
-		      <img src="img/text.jpg" alt="...">
+		      <img src="img/ecommercebox5.png" alt="...">
 		      <div class="caption">
-		        <h3>Thumbnail label</h3>
-		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		        <h3>Boleto no e-commerce funciona?</h3>
+		        <p><br/></p>
+		        <p><a href="boleto-no-e-commerce-funciona.php" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
-		    <div class="col-sm-6 col-md-4">
+		    <!--<div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
 		      <img src="img/text.jpg" alt="...">
 		      <div class="caption">
