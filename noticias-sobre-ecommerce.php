@@ -120,13 +120,50 @@
 		      </div>
 		    </div>
 		  </div>
-		   <!--  <div class="col-sm-6 col-md-4">
+		   <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
-		      <img src="img/text.jpg" alt="...">
+		      <img src="img/ecommercebox9.png" alt="...">
 		      <div class="caption">
-		        <h3>Thumbnail label</h3>
-		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		        <h3 style="line-height: 30px;">Saiba como construir o mix ideal de produtos para seu e-commerce</h3>
+		        <p></p>
+		        <p><a href="saiba-como-construir-o-mix-ideal-de-produtos-para-seu-e-commerce.php" class="btn btn-default" role="button">Leia mais</a></p>
+		      </div>
+		    </div>
+		  </div>
+			
+		</div>
+	</div>
+</section>
+
+		  <section class="conteudo">
+		  <div class="container">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="img/ecommercebox10.png" alt="...">
+		      <div class="caption">
+		        <h3 style="line-height: 30px;">Carrinho cheio... Carrinho vazio. O que aconteceu?</h3>
+		        <p></p>
+		        <p><a href="carrinho-cheio-carrinho-vazio-o-que-aconteceu.php" class="btn btn-default" role="button">Leia mais</a></p>
+		      </div>
+		    </div>
+		  </div>
+		   <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="img/ecommercebox11.png" alt="...">
+		      <div class="caption">
+		        <h3>IOT: Internet Of Things. e eu com isso?</h3>
+		        <p><br/></p>
+		        <p><a href="iot-internet-of-things-e-eu-com-isso.php" class="btn btn-default" role="button">Leia mais</a></p>
+		      </div>
+		    </div>
+		  </div>
+		   <!--<div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="img/ecommercebox9.png" alt="...">
+		      <div class="caption">
+		        <h3 style="line-height: 30px;">Saiba como construir o mix ideal de produtos para seu e-commerce</h3>
+		        <p></p>
+		        <p><a href="saiba-como-construir-o-mix-ideal-de-produtos-para-seu-e-commerce.php" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>-->

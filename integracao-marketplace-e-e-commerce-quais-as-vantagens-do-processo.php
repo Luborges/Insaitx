@@ -8,10 +8,10 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   	<meta name="robots" content="index follow">
     <meta name="description" content="Ter um negócio próprio é uma experiência tanto prazerosa quanto trabalhosa. Há quem opte por ter seu espaço numa rua e há quem prefira acomodá-lo em um shopping center. O mesmo raciocínio vale para marketplace e loja online.">
-	<meta property="og:image" content="http://insaitx.com.br/img/facebook12.png"/>
+	<meta property="og:image" content="http://insaitx.com.br/img/facebook11.png"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:locale" content="pt_BR">
-	<meta property="og:url" content="http://insaitx.com.br/integracao-marketplace-e-e-commerce-quais-as-vantagens-do-processo">
+	<meta property="og:url" content="http://insaitx.com.br/integracao-marketplace-e-e-commerce-quais-as-vantagens-do-processo.php">
 	<meta property="og:title" content="Insaitx - Integração marketplace e e-commerce: quais as vantagens do processo?">
 	<meta property="og:description" content="Ter um negócio próprio é uma experiência tanto prazerosa quanto trabalhosa. Há quem opte por ter seu espaço numa rua e há quem prefira acomodá-lo em um shopping center. O mesmo raciocínio vale para marketplace e loja online.">
   	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
