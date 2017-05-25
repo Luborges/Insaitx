@@ -85,17 +85,17 @@
 		      </div>
 		    </div>
 		  </div>
-		    <!--<div class="col-sm-6 col-md-4">
+		    <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
-		      <img src="img/text.jpg" alt="...">
+		      <img src="img/ecommercebox6.png" alt="...">
 		      <div class="caption">
-		        <h3>Thumbnail label</h3>
-		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		        <h3 style="line-height: 30px;">como melhorar a experiência do usuário usando inovação em TI</h3>
+		        <p></p>
+		        <p><a href="como-melhorar-a-experiencia-do-usuario-usando-inovacao-em-ti.php" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
-		  <div class="col-sm-6 col-md-4">
+		  <!--<div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
 		      <img src="img/text.jpg" alt="...">
 		      <div class="caption">
