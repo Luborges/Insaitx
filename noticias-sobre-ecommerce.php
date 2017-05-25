@@ -95,27 +95,32 @@
 		      </div>
 		    </div>
 		  </div>
-		  <!--<div class="col-sm-6 col-md-4">
+		  </div>
+		  </div>
+		  </section>
+		  <section class="conteudo">
+		  <div class="container">
+		  <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
-		      <img src="img/text.jpg" alt="...">
+		      <img src="img/ecommercebox7.png" alt="...">
 		      <div class="caption">
-		        <h3>Thumbnail label</h3>
-		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		        <h3 style="line-height: 30px;">Como um sistema erp pode ajudar na gestão de um e-commerce?</h3>
+		        <p></p>
+		        <p><a href="como-um-sistema-erp-pode-ajudar-na-gestao-de-um-e-commerce.php" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
-		    <div class="col-sm-6 col-md-4">
+		   <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
-		      <img src="img/text.jpg" alt="...">
+		      <img src="img/ecommercebox8.png" alt="...">
 		      <div class="caption">
-		        <h3>Thumbnail label</h3>
-		        <p>...</p>
-		        <p><a href="#" class="btn btn-default" role="button">Leia mais</a></p>
+		        <h3 style="line-height: 30px;">Integração marketplace e e-commerce: quais as vantagens do processo?</h3>
+		        <p></p>
+		        <p><a href="integracao-marketplace-e-e-commerce-quais-as-vantagens-do-processo.php" class="btn btn-default" role="button">Leia mais</a></p>
 		      </div>
 		    </div>
 		  </div>
-		    <div class="col-sm-6 col-md-4">
+		   <!--  <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
 		      <img src="img/text.jpg" alt="...">
 		      <div class="caption">

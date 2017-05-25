@@ -8204,6 +8204,10 @@ footer .social{
     font-size: 24px
 }
 
+.form {
+    width: 100% !important;
+}
+
 }
 
 @media (min-width: 480px) and (max-width: 567px){
@@ -8273,6 +8277,9 @@ footer .social{
 .parallax-window h1{
     font-size: 24px
 }
+.form {
+    width: 100%;
+}
 
 }
 
@@ -8300,6 +8307,9 @@ footer .social{
 }
 .parallax-window h1{
     font-size: 24px
+}
+.form {
+    width: 100% !important;
 }
 
 }
