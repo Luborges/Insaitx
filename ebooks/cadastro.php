@@ -22,6 +22,7 @@ else
 return $ip;
 }
     include "conexao.php";
+//  include "cadastrado.php";
     $erro=0;
     $nome = $_POST['nome'];
     $email = $_POST['email'];
@@ -34,6 +35,7 @@ return $ip;
 
     if ($con->query($sql) === TRUE) {
 
+        $con->close();
         header('Content-Type: application/download');
         header('Content-Disposition: attachment; filename="'.$arquivo.'"');
         header("Content-Length: " . filesize(arquivo));
@@ -44,7 +46,9 @@ return $ip;
         echo $arquivo;
 
     } 
+    else{
 
-    $con->close();
     echo "<script>window.close()</script>";
+    
+    }
 ?>

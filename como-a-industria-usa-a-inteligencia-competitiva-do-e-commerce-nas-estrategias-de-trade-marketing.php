@@ -23,6 +23,30 @@
     margin: 0 auto;
 	}
   	</style>
+
+<script>
+
+function showMore(){
+
+	var sessao = "<?php echo json_encode ($_SESSION['cadastrado']);?>";
+
+	if (sessao == 2){
+
+	    document.getElementById('link').style.display = "none";
+
+	}
+	else{
+	    document.getElementById('more').style.display = "none";
+	    //removes the link
+	    document.getElementById('link').style.display = "none";
+	    //shows the #more
+	    document.getElementById('more').style.display = "block";
+	    
+	}
+}
+
+</script>
+
 </head>
 <body>
 <?php include "topo.php"; ?>
@@ -37,6 +61,58 @@
 			<p>Ricardo Totola, Gerente de Trade Marketing Online da Lenovo falou um pouco sobre como a indústria está usando a inteligência competitiva do e-commerce em suas estratégias de trade marketing. Totola explica que o trade marketing surgiu para atender a demanda do varejo offline. “A indústria alimentícia foi a pioneira e a indústria farmacêutica aperfeiçoou a técnica”, relembra. Com a aproximação da indústria com o e-commerce Totola ressalta a necessidade de as duas operações estarem muito bem alinhadas. “No fim precisamos atingir os resultados juntos. A negociação comercial com os revendedores acontece junto com o nosso trabalho”, disse.
 		        </p>
 		    <p>Veja cinco pilares que sustentam as conversões no Trade Marketing:</p>
+			<div id="more">
+			<section class='cadastro'>;
+			<div class='container'>
+			<div class='row'>
+			<div class='col-md-12 form'>
+			</div>
+			</div>
+			</div>
+			</div>
+			<a href="javascript:showMore()" id="link">Para terminar de ler o artigo cadastre-se agora>></a>
+
+		  </div>
+		</div>
+	</div>
+</section>
+<?php
+if (isset($_SESSION["cadastrado"])==false){
+	$_SESSION['cadastrado']=3;
+/*	echo "<section class='cadastro'>";
+	echo "<div class='container'>";
+	echo "<div class='row'>";
+	echo "<div class='col-md-12 form'>";
+//	echo "<h2>Para terminar de ler o artigo cadastre-se agora</h2>";
+	echo "<h2>fique atualizado</h2>";
+	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
+	include "form.php";
+	echo "</div>";
+	echo "</div>";
+	echo "</div>";
+	echo "</section>";*/
+
+}
+elseif ($_SESSION['cadastrado']!=2) {
+	$_SESSION['cadastrado']=3;
+/*	echo "<section class='cadastro'>";
+	echo "<div class='container'>";
+	echo "<div class='row'>";
+	echo "<div class='col-md-12 form'>";
+//	echo "<h2>Para terminar de ler o artigo cadastre-se agora</h2>";
+	echo "<h2>fique atualizado</h2>";
+	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
+	include "form.php";
+	echo "</div>";
+	echo "</div>";
+	echo "</div>";
+	echo "</section>";*/
+}
+else{
+	echo "<section class='noticia'>
+	<div class='container'>
+		<div class='row'>
+		  <div class='col-md-8 col-md-8 col-md-offset-2'>
 		    <p>1. O tamanho do e-commerce. O e-commerce está em franco crescimento e vai dobrar a participação no varejo nos próximos anos. Alguns fatores que vão ajudar nesse crescimento e que são importantes quando você está posicionando o seu produto são:</p>
 		    <ul>
 		    	<li>Os novos e-shoppers: influenciados por uma maior confiança do consumidor e possível volta do consumo das famílias);</li>
@@ -49,49 +125,7 @@
 		    <p>3. Sou considerado, logo existo. 50% dos consumidores consideram até 2 marcas somente antes de comprar. Que tipos de ferramenta você deve usar e como usar o e-commerce para gerar compras para a sua marca? Como fazer com que os seus produtos fantásticos aparecerem para o consumidor?</p>
 		    <p>4. Quem faz a cabeça, faz resultados (branding + conteúdo). 35% da verba investida no digital é para branding no varejo norte-americano. Essa relevância muda de acordo com a categoria do seu produto. No caso dos tablets, por exemplo, 55% das pessoas consideram a marca antes da compra, no caso das impressoras multifuncionais essa relevância é de 66%.</p>
 		    <p>5. Coop is the new black. No caso dos laptops, 80% das pessoas procuram pelos produtos nos buscadores, 50% pesquisam online direto no site dos varejistas, 23% procuram em sites das marcas, 19% em comparadores de preço e 14% em vídeos online.</p>
-		    <p>Artigo extraído do site <a href="http://www.ecommercebrasil.com.br">www.ecommercebrasil.com.br</a></p>
-		  </div>
-		</div>
-	</div>
-</section>
-<?php
-if (isset($_SESSION["cadastrado"])==false){
-	$_SESSION['cadastrado']=3;
-	echo "<section class='cadastro'>";
-	echo "<div class='container'>";
-	echo "<div class='row'>";
-	echo "<div class='col-md-12 form'>";
-	echo "<h2>fique atualizado</h2>";
-	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
-	include "form.php";
-	echo "</div>";
-	echo "</div>";
-	echo "</div>";
-	echo "</section>";
-
-}
-elseif ($_SESSION['cadastrado']!=2) {
-	$_SESSION['cadastrado']=3;
-	echo "<section class='cadastro'>";
-	echo "<div class='container'>";
-	echo "<div class='row'>";
-	echo "<div class='col-md-12 form'>";
-	echo "<h2>fique atualizado</h2>";
-	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
-	include "form.php";
-	echo "</div>";
-	echo "</div>";
-	echo "</div>";
-	echo "</section>";
-}
-else{
-	echo "<section class='noticia'>
-	<div class='container'>
-		<div class='row'>
-		  <div class='col-md-8 col-md-8 col-md-offset-2'>
-		        <p>
-		            Conteúdo para cadastrados
-		        </p>
+		    <p>Artigo extraído do site <a href='http://www.ecommercebrasil.com.br'>www.ecommercebrasil.com.br</a></p>
 		  </div>
 		</div>
 	</div>

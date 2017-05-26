@@ -6,14 +6,7 @@
 	<title>Insaitx - Como ter sucesso no Varejo</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  	<meta name="robots" content="index follow">
-  	<meta name="description" content="Após um 2016 de péssimos resultados - o pior da história no cenário nacional - o setor espera agora, uma recuperação.">
-	<meta property="og:image" content="http://insaitx.com.br/img/facebook4.png"/>
-	<meta property="og:type" content="website"/>
-	<meta property="og:locale" content="pt_BR">
-	<meta property="og:url" content="http://insaitx.com.br/como-ter-sucesso-no-varejo.php">
-	<meta property="og:title" content="Insaitx - Como ter sucesso no Varejo">
-	<meta property="og:description" content="Após um 2016 de péssimos resultados - o pior da história no cenário nacional - o setor espera agora, uma recuperação.">
+  	<meta name="robots" content="noindex nofollow">
   	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
    	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
    	<style>

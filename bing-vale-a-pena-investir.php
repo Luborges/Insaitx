@@ -43,22 +43,6 @@
  			</p>
  			<p><img src="img/bing-vale-a-pena-investir.png" alt="..."></p>
  			<p>Mas poxa, vou ter que criar as mesmas campanhas que fiz no Google AdWords, só que no Bing agora? Que trabalheira!</p>
- 			<p>Calma! O Bing nos abençoou com a possibilidade de importar as campanhas que você tem no AdWords, acelerando assim todo o processo e nos poupando tempo.</p>
- 			<p>Utilize, antes de iniciar qualquer campanha, a ferramenta de buscas de palavras-chave do Bing. Assim você pode ter uma noção do volume de buscas por determinadas palavras, média do CPC da mesma, entre outras informações.</p>
- 			<p>Para utilizar essa ferramenta, basta acessar o <a href="https://secure.azure.bingads.microsoft.com/">Bing Ads</a> ir em Ferramentas > Pesquisar Palavras-chave e inserir o termo que deseja buscar.</p>
- 			<p>Por fim, acreditamos que vale a pena investir no Bing Ads pois:</p>
- 			<ul>
- 				<li>A concorrência ainda é baixa;</li>
- 				<li>O investimento pode ser baixo</li>
- 				<li>O CPC também ainda é baixo, ficando entre R$ 0,10 e R$ 0,15;</li>
- 				<li>Possibilita anúncios na rede de pesquisa e Display, porém limitando o display apenas à Skype, Xbox, Outlook, MSN e Windows;</li>
- 				<li>Permite a importação das campanhas do AdWords;</li>
- 				<li>Possui uma taxa de conversão mais elevada.</li>
- 			</ul>
- 			<p><strong>Dica extra</strong></p>
- 			<p>Não utilize apenas palavras-chave específicas, pois pode ocorrer de ter pouquíssimas buscas ou até nenhuma.</p>
- 			<p>Use e abuse de palavras-chave mais amplas para aproveitar a baixa concorrência, o baixo custo por clique, e para ter certeza que todo o público relacionado ao seu produto ou serviço seja impactado pelo seu anúncio.</p>
- 			<p>Artigo extraído do site <a href="http://www.souhibrido.com.br">www.souhibrido.com.br</a></p>
 		  </div>
 		</div>
 	</div>
@@ -70,6 +54,7 @@ if (isset($_SESSION["cadastrado"])==false){
 	echo "<div class='container'>";
 	echo "<div class='row'>";
 	echo "<div class='col-md-12 form'>";
+	echo "<h2>Se cadastre para ler mais </h2>";
 	echo "<h2>fique atualizado</h2>";
 	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
 	include "form.php";
@@ -85,6 +70,7 @@ elseif ($_SESSION['cadastrado']!=2) {
 	echo "<div class='container'>";
 	echo "<div class='row'>";
 	echo "<div class='col-md-12 form'>";
+	echo "<h2>Se cadastre para ler mais </h2>";
 	echo "<h2>fique atualizado</h2>";
 	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
 	include "form.php";
@@ -98,10 +84,23 @@ else{
 	<div class='container'>
 		<div class='row'>
 		  <div class='col-md-8 col-md-8 col-md-offset-2'>
-		        <h2>Conteúdo para cadastrados</h2>
-		        <p>
-		            Conteúdo para cadastrados
-		        </p>
+		    <p>Calma! O Bing nos abençoou com a possibilidade de importar as campanhas que você tem no AdWords, acelerando assim todo o processo e nos poupando tempo.</p>
+ 			<p>Utilize, antes de iniciar qualquer campanha, a ferramenta de buscas de palavras-chave do Bing. Assim você pode ter uma noção do volume de buscas por determinadas palavras, média do CPC da mesma, entre outras informações.</p>
+ 			<p>Para utilizar essa ferramenta, basta acessar o <a href='https://secure.azure.bingads.microsoft.com/'>Bing Ads</a> ir em Ferramentas > Pesquisar Palavras-chave e inserir o termo que deseja buscar.</p>
+ 			<p>Por fim, acreditamos que vale a pena investir no Bing Ads pois:</p>
+ 			<ul>
+ 				<li>A concorrência ainda é baixa;</li>
+ 				<li>O investimento pode ser baixo</li>
+ 				<li>O CPC também ainda é baixo, ficando entre R$ 0,10 e R$ 0,15;</li>
+ 				<li>Possibilita anúncios na rede de pesquisa e Display, porém limitando o display apenas à Skype, Xbox, Outlook, MSN e Windows;</li>
+ 				<li>Permite a importação das campanhas do AdWords;</li>
+ 				<li>Possui uma taxa de conversão mais elevada.</li>
+ 			</ul>
+ 			<p><strong>Dica extra</strong></p>
+ 			<p>Não utilize apenas palavras-chave específicas, pois pode ocorrer de ter pouquíssimas buscas ou até nenhuma.</p>
+ 			<p>Use e abuse de palavras-chave mais amplas para aproveitar a baixa concorrência, o baixo custo por clique, e para ter certeza que todo o público relacionado ao seu produto ou serviço seja impactado pelo seu anúncio.</p>
+ 			<p>Artigo extraído do site <a href='http://www.souhibrido.com.br'>www.souhibrido.com.br</a></p>
+
 		  </div>
 		</div>
 	</div>

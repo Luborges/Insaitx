@@ -2,12 +2,20 @@
 <script type="text/javascript">
     function verificarEmail() {
     var email = prompt("Entre com o e-mail");
+   	var sessao = "<?php echo json_encode ($_SESSION['cadastrado']);?>";
+
 
     $.ajax({
 		type: "POST",
 		url: "cadastrado.php",
 		data: {email:email},
+		complete: function (data) {
+     	if (sessao==3){
+			location.reload(); 
+		}
+     }
 });
+
 }
 </script>
 <script type="text/javascript">	
@@ -23,6 +31,7 @@ function verificarFormulario(){
 	var email = $('#email').val();
 	var cargo = $('#cargo').val();
 	var empresa = $('#empresa').val();
+	var sessao = "<?php echo json_encode ($_SESSION['cadastrado']);?>";
 
 	if (nome == "") {
 	  alert("Digite o seu nome");
@@ -37,13 +46,16 @@ function verificarFormulario(){
 	}
 	else{
 		$.ajax({
-				type: "POST",
-				url: "cadastro.php",
-				data: {nome:nome, email:email, cargo:cargo, empresa:empresa},
-
+			type: "POST",
+			url: "cadastro.php",
+			data: {nome:nome, email:email, cargo:cargo, empresa:empresa},
+			complete: function (data) {
+				if (sessao==3){
+					location.reload(); 
+				}
+			}
 		});
 		alert("Muito obrigado! Te enviaremos um e-mail para te informar do cadastro!");
-
 	}
 }
 </script>

@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <!--[if lte IE 9]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 9]><!-->
+<?php session_start();
+    if (isset($_SESSION["cadastrado"])==false){
+        $_SESSION['cadastrado']=1;
+    }
+?>
 <html class="no-js">
 <!--<![endif]-->
 <head>
@@ -10,12 +15,9 @@
 <meta name="description" content="">
 <meta content="yes" name="apple-mobile-web-app-capable" />
 <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" />
+<meta name="robots" content="index follow">
 
-<!--=================================
-CSS
-=================================-->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="assets/css/animations.css">
 <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
@@ -24,7 +26,7 @@ CSS
 
 <script async src="assets/js/lib/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
-<script>
+<script type="text/javascript">
 function abrirPopup(ebook_name){
 
     sessionStorage.setItem("sent", ebook_name); 
@@ -45,30 +47,37 @@ function abrirPopup(ebook_name){
                 <figure class="mt-40 animated fadeInLeft"><img src="assets/demo-data/ebook.png" alt="/"></figure>
             </div>
             <div class="col-sm-6">
-                <p>Transformação digital</p>
+                <!--<p>Transformação digital</p>-->
                 <h1 class="mb-35">Como anda a saúde da sua <span>empresa</span>? Precisa de ajuda para:</h1>
                 <ul>
-                    <li>Passar por uma transição de modelo de negócio</li>
-                    <li>Entender a importância da integração entre e-mail marketing e CRM</li>
-                    <li>Compreender o Empreendedorismo digital hoje</li>
-                    <li>Integração marketplace e e-commerce e as vantagens do processo</li>
-                    <li>Otimizar o tempo por meio da tecnologia</li>
+                    <li>Passar por uma transição de modelo de <br />negócio</li>
+                    <li>Entender a importância da integração entre <br />e-mail marketing e CRM</li>
+                    <li>Compreender o Empreendedorismo digital <br />atualmente</li>
+                    <li>Integração marketplace e e-commerce e as <br />vantagens do processo</li>
+                    <li>Otimizar o tempo por meio das ferramentas<br />tecnológicas</li>
                 </ul>
-                <a href="#teste" class="btn mt-30">Confira nossos e-books</a>
+                <a href="#downloads" class="btn mt-30">Confira nossos e-books</a>
             </div>
         </div>
     </div>
 </header>
+
+<div class="promo">
+    <div class="container">
+        <span class="pull-left">Aprenda as MELHORES dicas que separamos para você </span>
+        <a href="#downloads" class="btn pull-right">Baixe Agora</a>
+    </div>
+</div>
   
-<div class="download-bar">
+<!--<div class="download-bar">
     <div class="container">
         <div class="row">
             <div class="col-sm-5">
                 <div class="info">
                     <i class="fa fa-download"></i>
                     <div class="pad">
-                    <h5>Download GRÁTIS do E-book Completo </h5>
-                    <!--<p>Como fazer uma transição de modelo de negócio bem sucedida com tantos obstáculos no mercado?</p>-->
+                        <h5>Download GRÁTIS do E-book Completo </h5>
+                        <p>Como fazer uma transição de modelo de negócio bem sucedida com tantos obstáculos no mercado?</p>
                     </div>
                 </div>
             </div>
@@ -76,13 +85,13 @@ function abrirPopup(ebook_name){
                 <div class="search">
                     <form>
                         <input id='email' name='email' placeholder="Email" type="email">
-                        <button class="btn btn-blue">Baixar Agora</button>
+                        <button class="btn btn-blue"><a href="form.php">Baixar Agora</a></button>
                     </form>
                 </div>
             </div>
         </div>
     </div>    
-</div>
+</div>-->
     
 <section class="about-us">
     <div class="container">
@@ -144,7 +153,7 @@ function abrirPopup(ebook_name){
 <section class="our-books">
     <div class="container">
         <div class="sec-head text-center">
-            <h2 id="teste">E-Books Coleção</h2>
+            <h2 id="downloads">E-Books Coleção</h2>
             <hr>
             <p>Gostamos de ajudar nossos clientes a obter informações de qualidade - Confira nossos E-books.</p>
         </div><!--//head-->
@@ -156,7 +165,7 @@ function abrirPopup(ebook_name){
                         <h5>Como um sistema ERP pode ajudar na gestão de um <br>
                           E-Commerce?<br>
                         <img src="assets/demo-data/m4.png" alt=""/></h5>
-                            <span class="chapter"><a onClick="abrirPopup('ebook-erp.pdf');">Download</a></span>
+                            <span class="chapter"><a href="#" onClick="abrirPopup('ebook-erp.pdf');">Download</a></span>
                         </figcaption>
                     </figure>
                 </div>
@@ -167,7 +176,7 @@ function abrirPopup(ebook_name){
                       <figcaption>
                             <h5>Marketplace e loja virtual: quais as vantagens do processo? </h5>
                             <p><img src="assets/demo-data/m5.png" alt=""/></p>
-                            <span class="chapter"><a onClick="abrirPopup('ebook-vantagens.pdf');">Download</a></span>
+                            <span class="chapter"><a href="#" onClick="abrirPopup('ebook-vantagens.pdf');">Download</a></span>
                       </figcaption>
                     </figure>
                 </div>
@@ -178,7 +187,7 @@ function abrirPopup(ebook_name){
                         <figcaption>
                             <h5>5 dicas para passar por uma transição de modelo de negócio</h5>
                             <p><img src="assets/demo-data/m6.png" alt=""/></p>
-                            <span class="chapter"><a onClick="abrirPopup('ebook-5dicas.pdf');">Download</a></span>
+                            <span class="chapter"><a href="#" onClick="abrirPopup('ebook-5dicas.pdf');">Download</a></span>
                     </figcaption>
                     </figure>
                 </div>
@@ -189,7 +198,7 @@ function abrirPopup(ebook_name){
                         <figcaption>
                             <h5>A importância da integração entre e-mail marketing e CRM</h5>
                             <p><img src="assets/demo-data/ebook-crm-pq.png" alt=""/></p>
-                            <span class="chapter"><a onClick="abrirPopup('ebook-crm.pdf');">Download</a></span>
+                            <span class="chapter"><a href="#" onClick="abrirPopup('ebook-crm.pdf');">Download</a></span>
                     </figcaption>
                     </figure>
                 </div>
@@ -198,12 +207,12 @@ function abrirPopup(ebook_name){
     </div>
 </section>
 
-<div class="promo">
+<!--<div class="promo">
     <div class="container">
         <span class="pull-left">Aprenda as MELHORES dicas que separamos para você </span>
         <a href="#" class="btn pull-right">Baixe Agora</a>
     </div>
-</div>
+</div>-->
 
 <!--<section class="testimonials clearfix">
     <div class=" clearfix">
@@ -251,7 +260,7 @@ function abrirPopup(ebook_name){
                     <figure><img src="assets/demo-data/ebook-tempo.png" alt="ebook-otimizacao-tempo"/>
                     <figcaption><em>Grátis</em></figcaption>
                     </figure>
-                    <a href="ebooks/ebook-tempo.pdf" class="btn btn-blue">Donwload</a>
+                    <a href="ebooks/ebook-tempo.pdf" class="btn btn-blue">Download</a>
                 </div>
             </div>
             <div class="col-sm-6 no-pad animated bounceInUp" data-id="2">
@@ -260,7 +269,7 @@ function abrirPopup(ebook_name){
                   <figure><img src="assets/demo-data/ebook-empreendedorismodigiital.png" alt=""/>
                     <figcaption><em>Grátis</em></figcaption>
                     </figure>
-                    <a href="ebooks/ebook-empreendorimos-digital.pdf" class="btn btn-blue">Donwload</a>
+                    <a href="ebooks/ebook-empreendorimos-digital.pdf" class="btn btn-blue">Download</a>
                 </div>
             </div>
         </div>
@@ -270,9 +279,7 @@ function abrirPopup(ebook_name){
 <footer>
   <div class="container"><a href="https://www.facebook.com/insaitx/?ref=br_rs" target="_blank"><img src="assets/demo-data/icones/icon-facebook.png" alt=""/></a> <a href="https://www.instagram.com/insaitx/" target="_blank"><img src="assets/demo-data/icones/icon-insta.png" alt=""/></a> <a href="https://www.linkedin.com/in/insaitx-consultoria-122982143/" target="_blank"><img src="assets/demo-data/icones/icon-linkdin.png" alt=""/></a> <a href="http://insaitx.com.br/" target="_blank"> <img src="assets/demo-data/icones/icon-blog.png" alt=""/></a></div>
 </footer>
-<!--=================================
-Rafael Gullo Mendes - 
-===================================-->
+
 
 <script src="assets/js/lib/jquery.js"></script>
 <script src="assets/js/lib/jquery.prettyPhoto.js"></script>
@@ -280,7 +287,6 @@ Rafael Gullo Mendes -
 <script src="assets/js/lib/css3-animate-it.js"></script>
 <script src="assets/js/app/main.js"></script>
 
-<?php include "footer.php"; ?>
 
 </body>
 </html>
