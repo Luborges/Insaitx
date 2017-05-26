@@ -33,17 +33,7 @@
 		   	<h1>Saiba como construir o mix ideal de produtos para seu e-commerce</h1>
 		   	<p>É sabido que ser assertivo no mix produtos do seu comércio eletrônico, é fundamental para a boa saúde do negócio. Porém, mesmo assim, muitas pessoas que pensam em ingressar nesse mercado, não sabem exatamente como dosar os produtos que são oferecidos.</p>
 
-			<p>Ok? Mas e como eu consigo brigar com os grandes players de mercado (empresas já consolidadas com milhões de usuários e volume expressivo de faturamento)?
-			Essa é a pergunta de um milhão de dólares! Mas não se preocupe, seguindo essas dicas, os resultados finais podem ser melhores do que o esperado:
-		        </p>
-		        <ul>
-		        	<li>Quanto maior o mix de produtos, melhor! Claro que, não adianta querer abraçar o mundo, se não você corre o risco de ter produtos encalhados na sua “prateleira”. Por isso, é bom ter mente que: produtos segmentados, mas com a maior oferta possível de variedade;</li>
-		        	<li>Varie seu mix. Como assim? Significa colocar mais ofertas de preços, fornecedores, marcas dentro de um mesmo segmento. Portanto, se você tem um e-commerce de calçados femininos, use e abuse dos mais variados modelos, cores, tamanhos, preços e públicos. Só não vale incluir ali uma “oferta de som automotivo”. Percebeu a jogada? Por mais atrativo que possa ser em outros sites, foque no que você faz bem!</li>
-		        	<li>Migrações sensatas e cautelosas são bem vindas. Por exemplo, você está tendo sucesso nas vendas de peças femininas, mas agora quer ampliar o leque de produtos. Ótimo! Parta então para acessórios, sapatos, bolsas, colares etc. Não pule etapas e nem seja apressado demais. Querer abraçar o mundo pode não funcionar e ser muito arriscado;</li>
-		        </ul>
-		    <p>Já vendeu? Está tendo sucesso? O feedback dos clientes é positivo? O(s) produto(s) tem recorrência de venda? Tem medido a concorrência? E a divulgação? Como anda?</p>
-		    <p>Todas essas perguntas devem acompanhar a vida do empreendedor, seja ele no mundo real ou, principalmente, no virtual onde as mudanças são mais drásticas e somente os mais preparados sobrevivem.</p>
-		    <p>Boas vendas!</p>
+			<p>Ok? Mas e como eu consigo brigar com os grandes players de mercado (empresas já consolidadas com milhões de usuários e volume expressivo de faturamento)?</p>
 		  </div>
 		</div>
 	</div>
@@ -55,6 +45,7 @@ if (isset($_SESSION["cadastrado"])==false){
 	echo "<div class='container'>";
 	echo "<div class='row'>";
 	echo "<div class='col-md-12 form'>";
+	echo "<h2>Se cadastre para ler mais </h2>";
 	echo "<h2>fique atualizado</h2>";
 	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
 	include "form.php";
@@ -70,6 +61,7 @@ elseif ($_SESSION['cadastrado']!=2) {
 	echo "<div class='container'>";
 	echo "<div class='row'>";
 	echo "<div class='col-md-12 form'>";
+	echo "<h2>Se cadastre para ler mais </h2>";
 	echo "<h2>fique atualizado</h2>";
 	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
 	include "form.php";
@@ -83,9 +75,16 @@ else{
 	<div class='container'>
 		<div class='row'>
 		  <div class='col-md-8 col-md-8 col-md-offset-2'>
-		        <p>
-		            Conteúdo para cadastrados
+			<p>Essa é a pergunta de um milhão de dólares! Mas não se preocupe, seguindo essas dicas, os resultados finais podem ser melhores do que o esperado:
 		        </p>
+		        <ul>
+		        	<li>Quanto maior o mix de produtos, melhor! Claro que, não adianta querer abraçar o mundo, se não você corre o risco de ter produtos encalhados na sua “prateleira”. Por isso, é bom ter mente que: produtos segmentados, mas com a maior oferta possível de variedade;</li>
+		        	<li>Varie seu mix. Como assim? Significa colocar mais ofertas de preços, fornecedores, marcas dentro de um mesmo segmento. Portanto, se você tem um e-commerce de calçados femininos, use e abuse dos mais variados modelos, cores, tamanhos, preços e públicos. Só não vale incluir ali uma “oferta de som automotivo”. Percebeu a jogada? Por mais atrativo que possa ser em outros sites, foque no que você faz bem!</li>
+		        	<li>Migrações sensatas e cautelosas são bem vindas. Por exemplo, você está tendo sucesso nas vendas de peças femininas, mas agora quer ampliar o leque de produtos. Ótimo! Parta então para acessórios, sapatos, bolsas, colares etc. Não pule etapas e nem seja apressado demais. Querer abraçar o mundo pode não funcionar e ser muito arriscado;</li>
+		        </ul>
+		    <p>Já vendeu? Está tendo sucesso? O feedback dos clientes é positivo? O(s) produto(s) tem recorrência de venda? Tem medido a concorrência? E a divulgação? Como anda?</p>
+		    <p>Todas essas perguntas devem acompanhar a vida do empreendedor, seja ele no mundo real ou, principalmente, no virtual onde as mudanças são mais drásticas e somente os mais preparados sobrevivem.</p>
+		    <p>Boas vendas!</p>
 		  </div>
 		</div>
 	</div>

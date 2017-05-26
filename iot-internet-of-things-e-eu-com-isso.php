@@ -35,15 +35,6 @@
 
 			<p>Não estamos falando aqui do seu super smartphone que faz tudo, ou do seu relógio que também faz ligação. A conversa aqui é de geladeiras que avisam quando estão esvaziando, torradeiras que preparam aquele pão quentinho antes mesmo de você sair da cama, chuveiros que preparam seu banho na temperatura ideal, antes mesmo de você chegar ao banheiro. Além de um mundo de outras possibilidades.
 		        </p>
-		        <p>Além de fatores como, comodidade, redução de custos e tempo desnecessários, maior segurança nas transações e validações, a IOT ainda nesta década (#spoiler) irá mudar definitivamente nossas vidas. Fatores como:</p>
-		        <ol>
-		        	<li>ROI (retorno sobre investimento) eficiente: os custos envolvidos em desenvolvimento de alta tecnologia, se mostram ao longo do tempo, eficazes para a retenção dos clientes;</li>
-		        	<li>criação de conta (login) obrigatória - infelizmente, não há muito o que se fazer nesse caso;</li>
-		        	<li>Custa caro, mas vale a pena! Implantação, manutenção e integração com as tecnologias existentes, acaba se tornando vantajoso às empresas que apostam nessa onda, desde os momentos atuais;</li>
-		        	<li>Um leque infinito de possibilidades, mas que tem muito ainda para evoluir quanto às vulnerabilidades que abre ao ecossistema como um todo - mais facilmente, hackers poderão ter acesso a controles de gadgets, contas, senhas etc.</li>
-		        </ul>
-		    <p>Resumindo, a IOT não busca apenas facilitar sua vida diária com equipamentos mais modernos, mas sim, uma maior compreensão dos hábitos através da captura de dados das pessoas que as possuem. Cada vez mais, entender o perfil do cliente será a maneira mais eficiente para se manter vivo num mercado ultra competitivo.</p>
-		    <p>E se os gadgets puderem fazer isso enquanto sua banheira prepara seu banho com as condições de sua preferência, por que não?</p>
 		  </div>
 		</div>
 	</div>
@@ -55,6 +46,7 @@ if (isset($_SESSION["cadastrado"])==false){
 	echo "<div class='container'>";
 	echo "<div class='row'>";
 	echo "<div class='col-md-12 form'>";
+	echo "<h2>Se cadastre para ler mais </h2>";
 	echo "<h2>fique atualizado</h2>";
 	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
 	include "form.php";
@@ -70,6 +62,7 @@ elseif ($_SESSION['cadastrado']!=2) {
 	echo "<div class='container'>";
 	echo "<div class='row'>";
 	echo "<div class='col-md-12 form'>";
+	echo "<h2>Se cadastre para ler mais </h2>";
 	echo "<h2>fique atualizado</h2>";
 	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
 	include "form.php";
@@ -83,9 +76,15 @@ else{
 	<div class='container'>
 		<div class='row'>
 		  <div class='col-md-8 col-md-8 col-md-offset-2'>
-		        <p>
-		            Conteúdo para cadastrados
-		        </p>
+		        <p>Além de fatores como, comodidade, redução de custos e tempo desnecessários, maior segurança nas transações e validações, a IOT ainda nesta década (#spoiler) irá mudar definitivamente nossas vidas. Fatores como:</p>
+		        <ol>
+		        	<li>ROI (retorno sobre investimento) eficiente: os custos envolvidos em desenvolvimento de alta tecnologia, se mostram ao longo do tempo, eficazes para a retenção dos clientes;</li>
+		        	<li>criação de conta (login) obrigatória - infelizmente, não há muito o que se fazer nesse caso;</li>
+		        	<li>Custa caro, mas vale a pena! Implantação, manutenção e integração com as tecnologias existentes, acaba se tornando vantajoso às empresas que apostam nessa onda, desde os momentos atuais;</li>
+		        	<li>Um leque infinito de possibilidades, mas que tem muito ainda para evoluir quanto às vulnerabilidades que abre ao ecossistema como um todo - mais facilmente, hackers poderão ter acesso a controles de gadgets, contas, senhas etc.</li>
+		        </ul>
+		    <p>Resumindo, a IOT não busca apenas facilitar sua vida diária com equipamentos mais modernos, mas sim, uma maior compreensão dos hábitos através da captura de dados das pessoas que as possuem. Cada vez mais, entender o perfil do cliente será a maneira mais eficiente para se manter vivo num mercado ultra competitivo.</p>
+		    <p>E se os gadgets puderem fazer isso enquanto sua banheira prepara seu banho com as condições de sua preferência, por que não?</p>
 		  </div>
 		</div>
 	</div>

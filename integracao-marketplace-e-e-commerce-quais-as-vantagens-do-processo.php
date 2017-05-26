@@ -47,15 +47,6 @@ Quer participar desse movimento? Veja a seguir algumas das vantagens da integra�
 		    <p>Lembre-se de ao escolher um marketplace observar se seu público-alvo tem interesse em seus produtos. É um raciocínio muito semelhante ao do mundo físico.</p>
 		    <p><strong>Visibilidade</strong></p>
 		    <p>Quando você está num marketplace é comum que o comprador pense que todos os produtos pertencem à mesma loja. Seus itens serão vistos por milhares de clientes e terão boas chances de serem vendidos.</p>
-		    <p><strong>Plataforma</strong></p>
-		    <p>Estar num marketplace aumenta suas chances de vendas. E estar em vários? Mais ainda, já que quanto mais forem expostos ao público, maiores as chances de encontrar compradores. O melhor disso tudo é que não é necessário ter uma plataforma própria.</p>
-		    <p>Usando uma plataforma de terceiros é possível se concentrar em encontrar as melhores soluções para otimizar os processos de venda, bem como aumentar a taxa de conversão e o ticket médio. Portanto, oferecer o produto em mais de um local pode ser uma boa opção.</p>
-			<p><strong>SEO</strong></p>
-			<p>Quanto mais exposto for o seu produto, maior a relevância da sua loja em SEO. Com isso, seu comércio tem mais chance de se destacar nos resultados dos buscadores online.</p>
-			<p><strong>Economia</strong>
-			</p>
-			<p>Todas as ações de marketing, bem como os investimentos em tecnologia, sistemas de pagamento, segurança antifraude, SAC e até antecipação de compras parceladas são geralmente feitas pelo marketplace. Assim, seus gastos tendem a diminuir quando você integra sua loja a um.</p>
-			<p>A taxa de comissão desses espaços varia. Normalmente, fica entre 10% e 25% de cada venda. É fundamental saber essa informação para ser capaz de definir os preços dos seus produtos, de modo a manter sua margem de lucro.</p>
 		  </div>
 		</div>
 	</div>
@@ -67,6 +58,7 @@ if (isset($_SESSION["cadastrado"])==false){
 	echo "<div class='container'>";
 	echo "<div class='row'>";
 	echo "<div class='col-md-12 form'>";
+	echo "<h2>Se cadastre para ler mais </h2>";
 	echo "<h2>fique atualizado</h2>";
 	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
 	include "form.php";
@@ -82,6 +74,7 @@ elseif ($_SESSION['cadastrado']!=2) {
 	echo "<div class='container'>";
 	echo "<div class='row'>";
 	echo "<div class='col-md-12 form'>";
+	echo "<h2>Se cadastre para ler mais </h2>";
 	echo "<h2>fique atualizado</h2>";
 	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
 	include "form.php";
@@ -95,9 +88,15 @@ else{
 	<div class='container'>
 		<div class='row'>
 		  <div class='col-md-8 col-md-8 col-md-offset-2'>
-		        <p>
-		            Conteúdo para cadastrados
-		        </p>
+		    <p><strong>Plataforma</strong></p>
+		    <p>Estar num marketplace aumenta suas chances de vendas. E estar em vários? Mais ainda, já que quanto mais forem expostos ao público, maiores as chances de encontrar compradores. O melhor disso tudo é que não é necessário ter uma plataforma própria.</p>
+		    <p>Usando uma plataforma de terceiros é possível se concentrar em encontrar as melhores soluções para otimizar os processos de venda, bem como aumentar a taxa de conversão e o ticket médio. Portanto, oferecer o produto em mais de um local pode ser uma boa opção.</p>
+			<p><strong>SEO</strong></p>
+			<p>Quanto mais exposto for o seu produto, maior a relevância da sua loja em SEO. Com isso, seu comércio tem mais chance de se destacar nos resultados dos buscadores online.</p>
+			<p><strong>Economia</strong>
+			</p>
+			<p>Todas as ações de marketing, bem como os investimentos em tecnologia, sistemas de pagamento, segurança antifraude, SAC e até antecipação de compras parceladas são geralmente feitas pelo marketplace. Assim, seus gastos tendem a diminuir quando você integra sua loja a um.</p>
+			<p>A taxa de comissão desses espaços varia. Normalmente, fica entre 10% e 25% de cada venda. É fundamental saber essa informação para ser capaz de definir os preços dos seus produtos, de modo a manter sua margem de lucro.</p>
 		  </div>
 		</div>
 	</div>

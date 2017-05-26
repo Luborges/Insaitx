@@ -43,6 +43,48 @@
 		    <p><strong>Melhora gestão de estoque</strong></p>
 		    <p>Promover uma melhor gestão de estoque é um dos benefícios de integrar um ERP ao e-commerce, estabelecendo, assim, um controle eficiente de estoque e compras para a loja virtual.</p>
 		    <p>Com base nos relatórios gerados pelo sistema ERP, é possível identificar os produtos que apresentam maior demanda e ajustar as quantidades do estoque, reduzindo e aumentando a disponibilidade de diferentes tipos de mercadorias.</p>
+			</p>
+		  </div>
+		</div>
+	</div>
+</section>
+<?php
+if (isset($_SESSION["cadastrado"])==false){
+	$_SESSION['cadastrado']=3;
+	echo "<section class='cadastro'>";
+	echo "<div class='container'>";
+	echo "<div class='row'>";
+	echo "<div class='col-md-12 form'>";
+	echo "<h2>Se cadastre para ler mais </h2>";
+	echo "<h2>fique atualizado</h2>";
+	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
+	include "form.php";
+	echo "</div>";
+	echo "</div>";
+	echo "</div>";
+	echo "</section>";
+
+}
+elseif ($_SESSION['cadastrado']!=2) {
+	$_SESSION['cadastrado']=3;
+	echo "<section class='cadastro'>";
+	echo "<div class='container'>";
+	echo "<div class='row'>";
+	echo "<div class='col-md-12 form'>";
+	echo "<h2>Se cadastre para ler mais </h2>";
+	echo "<h2>fique atualizado</h2>";
+	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
+	include "form.php";
+	echo "</div>";
+	echo "</div>";
+	echo "</div>";
+	echo "</section>";
+}
+else{
+	echo "<section class='noticia'>
+	<div class='container'>
+		<div class='row'>
+		  <div class='col-md-8 col-md-8 col-md-offset-2'>
 		    <p><strong>Otimiza os processos administrativos</strong></p>
 		    <p>Contar com inúmeras planilhas eletrônicas torna os processos desnecessariamente e demasiadamente morosos. Por exemplo, sem a automação de um sistema ERP, cada transação precisa ser registrada, primeiramente, numa planilha de vendas para, posteriormente, atualizar a planilha de controle de estoque e, somente após isso, inserir as informações na planilha financeira.</p>
 		    <p>De modo diferente, um sistema ERP torna todas essas operações mais ágeis e sincronizadas, contribuindo para deixar os processos muito mais velozes e reduzindo o desperdício de tempo e recursos.</p>
@@ -59,49 +101,6 @@
 			<p>Uma das maiores vantagens de usar um ERP é a capacidade de integrar todos os meios de gestão em uma mesma plataforma, sem a necessidade de usar diversos controles com focos distintos.</p>
 			<p>Com isso, as informações mais relevantes para a tomada de decisão e planejamento estratégico se encontram reunidas, simplificando os esforços de administrar a loja virtual. Essa eficiência, por si só, justifica todo o investimento, não é mesmo?
 			E agora? Percebe como um sistema ERP pode ser decisivo para otimizar a gestão de seu e-commerce?
-			</p>
-		  </div>
-		</div>
-	</div>
-</section>
-<?php
-if (isset($_SESSION["cadastrado"])==false){
-	$_SESSION['cadastrado']=3;
-	echo "<section class='cadastro'>";
-	echo "<div class='container'>";
-	echo "<div class='row'>";
-	echo "<div class='col-md-12 form'>";
-	echo "<h2>fique atualizado</h2>";
-	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
-	include "form.php";
-	echo "</div>";
-	echo "</div>";
-	echo "</div>";
-	echo "</section>";
-
-}
-elseif ($_SESSION['cadastrado']!=2) {
-	$_SESSION['cadastrado']=3;
-	echo "<section class='cadastro'>";
-	echo "<div class='container'>";
-	echo "<div class='row'>";
-	echo "<div class='col-md-12 form'>";
-	echo "<h2>fique atualizado</h2>";
-	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
-	include "form.php";
-	echo "</div>";
-	echo "</div>";
-	echo "</div>";
-	echo "</section>";
-}
-else{
-	echo "<section class='noticia'>
-	<div class='container'>
-		<div class='row'>
-		  <div class='col-md-8 col-md-8 col-md-offset-2'>
-		        <p>
-		            Conteúdo para cadastrados
-		        </p>
 		  </div>
 		</div>
 	</div>

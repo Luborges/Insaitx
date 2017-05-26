@@ -36,17 +36,6 @@
 			<p>Esse é o pior pesadelo de todo empresário do e-commerce. Pesquisas apontam que 69% das vezes o ritual 'maligno' acontece, de acordo com o Baymard Institute. E como evitá-lo?
 		        </p>
 		        <p>Em termos técnicos, o UX ("user experience") é O que as empresas tem que ter em mente, se quiserem prover uma boa experiência ao seu consumidor. Do começo ao fim do processo de compra, UX é fundamental. Pensar com a cabela do próprio cliente; como ele iria preferir esse caminho; quais ferramentas iriam ajudá-lo; quais validações podem ser eliminadas, sem comprometer a segurança do site. Isso é o que determina se esse cliente será apenas um interessado na compra ou realmente, um cliente.</p>
-		        <p>Podemos elencar 5 razões principais para o abandono da compra em um momento tão importante: o pagamento:</p>
-		        <ol>
-		        	<li>custos inesperados de frete;</li>
-		        	<li>criação de conta (login) obrigatória - infelizmente, não há muito o que se fazer nesse caso;</li>
-		        	<li>"apenas olhando" - o que vale nas lojas físicas, também acontece no mundo virtual;</li>
-		        	<li>credibilidade do sistema de pagamento;</li>
-		        	<li>chekouts longos e/ou confusos.</li>
-		        </ul>
-		    <p>Como então fazer com que isso não se torne um risco, e sim uma solução viável ao seu cliente?</p>
-		    <p>Pagamentos mobiles (sim! Seu site tem que ser responsivo); uma navegabilidade intuitiva e clara, para facilitar a vida da pessoa do outro lado da tela, seja ela mobile ou não; um atendimento eficiente, caso ocorra algum problema no processo; credibilidade: seu cliente precisa se sentir seguro para informar os dados de um cartão de crédito ou querer emitir um boleto antes de despender de recursos.</p>
-		    <p>Gostou das dicas? Tem algo que você acrescentaria aqui? Escreva para nós! Estamos aqui para te ouvir.</p>
 		  </div>
 		</div>
 	</div>
@@ -58,6 +47,7 @@ if (isset($_SESSION["cadastrado"])==false){
 	echo "<div class='container'>";
 	echo "<div class='row'>";
 	echo "<div class='col-md-12 form'>";
+	echo "<h2>Para terminar de ler o artigo cadastre-se agora</h2>";
 	echo "<h2>fique atualizado</h2>";
 	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
 	include "form.php";
@@ -73,6 +63,7 @@ elseif ($_SESSION['cadastrado']!=2) {
 	echo "<div class='container'>";
 	echo "<div class='row'>";
 	echo "<div class='col-md-12 form'>";
+	echo "<h2>Para terminar de ler o artigo cadastre-se agora</h2>";
 	echo "<h2>fique atualizado</h2>";
 	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
 	include "form.php";
@@ -82,18 +73,26 @@ elseif ($_SESSION['cadastrado']!=2) {
 	echo "</section>";
 }
 else{
-	echo "<section class='noticia'>
-	<div class='container'>
-		<div class='row'>
-		  <div class='col-md-8 col-md-8 col-md-offset-2'>
-		        <p>
-		            Conteúdo para cadastrados
-		        </p>
+	echo '<section class="noticia">
+	<div class="container">
+		<div class="row">
+		  <div class="col-md-8 col-md-8 col-md-offset-2">
+		        <p>Podemos elencar 5 razões principais para o abandono da compra em um momento tão importante: o pagamento:</p>
+		        <ol>
+		        	<li>custos inesperados de frete;</li>
+		        	<li>criação de conta (login) obrigatória - infelizmente, não há muito o que se fazer nesse caso;</li>
+		        	<li>"apenas olhando" - o que vale nas lojas físicas, também acontece no mundo virtual;</li>
+		        	<li>credibilidade do sistema de pagamento;</li>
+		        	<li>chekouts longos e/ou confusos.</li>
+		        </ul>
+		    <p>Como então fazer com que isso não se torne um risco, e sim uma solução viável ao seu cliente?</p>
+		    <p>Pagamentos mobiles (sim! Seu site tem que ser responsivo); uma navegabilidade intuitiva e clara, para facilitar a vida da pessoa do outro lado da tela, seja ela mobile ou não; um atendimento eficiente, caso ocorra algum problema no processo; credibilidade: seu cliente precisa se sentir seguro para informar os dados de um cartão de crédito ou querer emitir um boleto antes de despender de recursos.</p>
+		    <p>Gostou das dicas? Tem algo que você acrescentaria aqui? Escreva para nós! Estamos aqui para te ouvir.</p>
 		  </div>
 		</div>
 	</div>
 </section>
-";
+';
 }
 ?>
 

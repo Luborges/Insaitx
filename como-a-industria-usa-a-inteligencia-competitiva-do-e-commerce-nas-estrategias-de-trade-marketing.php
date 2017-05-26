@@ -23,30 +23,6 @@
     margin: 0 auto;
 	}
   	</style>
-
-<script>
-
-function showMore(){
-
-	var sessao = "<?php echo json_encode ($_SESSION['cadastrado']);?>";
-
-	if (sessao == 2){
-
-	    document.getElementById('link').style.display = "none";
-
-	}
-	else{
-	    document.getElementById('more').style.display = "none";
-	    //removes the link
-	    document.getElementById('link').style.display = "none";
-	    //shows the #more
-	    document.getElementById('more').style.display = "block";
-	    
-	}
-}
-
-</script>
-
 </head>
 <body>
 <?php include "topo.php"; ?>
@@ -61,17 +37,6 @@ function showMore(){
 			<p>Ricardo Totola, Gerente de Trade Marketing Online da Lenovo falou um pouco sobre como a indústria está usando a inteligência competitiva do e-commerce em suas estratégias de trade marketing. Totola explica que o trade marketing surgiu para atender a demanda do varejo offline. “A indústria alimentícia foi a pioneira e a indústria farmacêutica aperfeiçoou a técnica”, relembra. Com a aproximação da indústria com o e-commerce Totola ressalta a necessidade de as duas operações estarem muito bem alinhadas. “No fim precisamos atingir os resultados juntos. A negociação comercial com os revendedores acontece junto com o nosso trabalho”, disse.
 		        </p>
 		    <p>Veja cinco pilares que sustentam as conversões no Trade Marketing:</p>
-			<div id="more">
-			<section class='cadastro'>;
-			<div class='container'>
-			<div class='row'>
-			<div class='col-md-12 form'>
-			</div>
-			</div>
-			</div>
-			</div>
-			<a href="javascript:showMore()" id="link">Para terminar de ler o artigo cadastre-se agora>></a>
-
 		  </div>
 		</div>
 	</div>
@@ -79,34 +44,34 @@ function showMore(){
 <?php
 if (isset($_SESSION["cadastrado"])==false){
 	$_SESSION['cadastrado']=3;
-/*	echo "<section class='cadastro'>";
+	echo "<section class='cadastro'>";
 	echo "<div class='container'>";
 	echo "<div class='row'>";
 	echo "<div class='col-md-12 form'>";
-//	echo "<h2>Para terminar de ler o artigo cadastre-se agora</h2>";
+	echo "<h2>Para terminar de ler o artigo cadastre-se agora</h2>";
 	echo "<h2>fique atualizado</h2>";
 	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
 	include "form.php";
 	echo "</div>";
 	echo "</div>";
 	echo "</div>";
-	echo "</section>";*/
+	echo "</section>";
 
 }
 elseif ($_SESSION['cadastrado']!=2) {
 	$_SESSION['cadastrado']=3;
-/*	echo "<section class='cadastro'>";
+	echo "<section class='cadastro'>";
 	echo "<div class='container'>";
 	echo "<div class='row'>";
 	echo "<div class='col-md-12 form'>";
-//	echo "<h2>Para terminar de ler o artigo cadastre-se agora</h2>";
+	echo "<h2>Para terminar de ler o artigo cadastre-se agora</h2>";
 	echo "<h2>fique atualizado</h2>";
 	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
 	include "form.php";
 	echo "</div>";
 	echo "</div>";
 	echo "</div>";
-	echo "</section>";*/
+	echo "</section>";
 }
 else{
 	echo "<section class='noticia'>

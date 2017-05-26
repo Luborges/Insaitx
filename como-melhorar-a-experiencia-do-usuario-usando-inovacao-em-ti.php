@@ -41,13 +41,6 @@
 		    <p>Uma inovação interessante é a que permite comprar com apenas um clique. É uma opção óbvia para clientes que querem fazer suas compras em segundos. Além disso, evita os altos índices de abandono que ocorrem no processo de chegada ao carrinho de compras.</p>
 		    <p>Pesquisas indicam que a cada 100 clientes que visitam uma loja virtual, de 20 a 25 colocam produtos no carrinho de compras. A efetivação da compra, porém, só é feita por dois ou três deles.</p>
 		    <p>Pesquisas indicam que a cada 100 clientes que visitam uma loja virtual, de 20 a 25 colocam produtos no carrinho de compras. A efetivação da compra, porém, só é feita por dois ou três deles.</p>
-		    <p><strong>Marketing</strong></p>
-		    <p>Com o aperfeiçoamento das ferramentas de Big Data, o marketing evoluiu muito: dos sistemas de recomendação aos lembretes de substituição de itens vencidos, passando pela oferta de produtos não relacionados aos comprados anteriormente (mas adequados ao perfil de consumo do cliente).</p>
-		    <p>Outra possibilidade é o marketing one to one, que tem propaganda sob medida para cada pessoa. É assim que os produtos que o cliente deseja aparecem magicamente em sites que ele está visitando. Essa técnica, porém, incomoda muitos consumidores e deve ser usada com cautela.</p>
-		    <p><strong>Atendimento ao cliente</strong></p>
-		    <p>Bom atendimento é fundamental antes mesmo de o cliente fazer qualquer compra. É essencial mantê-lo na loja o máximo de tempo possível, pois isso aumenta as chances da venda. Deve-se, portanto, pensar na aparência da loja e, se possível, incluir uma ferramenta de chat para o esclarecimento de dúvidas em tempo real.</p>
-		    <p>No pós-venda, a inovação em TI auxilia na tarefa de aumentar a taxa de fidelização e de ajudar a sanar insatisfações rapidamente (diminuindo a chance de um consumidor descontente fazer propaganda negativa). A massificação das redes sociais permite que o cliente produza estragos consideráveis na reputação de uma marca.</p>
-		    <p>Todos os dados da navegação do consumidor ajudam a empresa a melhorar seu relacionamento com ele, compreender seu comportamento e o porquê de abandonar a loja antes de fazer a compra (independentemente do local em que parou).</p>
 		  </div>
 		</div>
 	</div>
@@ -59,6 +52,7 @@ if (isset($_SESSION["cadastrado"])==false){
 	echo "<div class='container'>";
 	echo "<div class='row'>";
 	echo "<div class='col-md-12 form'>";
+	echo "<h2>Se cadastre para ler mais </h2>";
 	echo "<h2>fique atualizado</h2>";
 	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
 	include "form.php";
@@ -74,6 +68,7 @@ elseif ($_SESSION['cadastrado']!=2) {
 	echo "<div class='container'>";
 	echo "<div class='row'>";
 	echo "<div class='col-md-12 form'>";
+	echo "<h2>Se cadastre para ler mais </h2>";
 	echo "<h2>fique atualizado</h2>";
 	echo "<p>Cadastre-se aqui para mais conteúdo</p>";
 	include "form.php";
@@ -87,9 +82,13 @@ else{
 	<div class='container'>
 		<div class='row'>
 		  <div class='col-md-8 col-md-8 col-md-offset-2'>
-		        <p>
-		            Conteúdo para cadastrados
-		        </p>
+		    <p><strong>Marketing</strong></p>
+		    <p>Com o aperfeiçoamento das ferramentas de Big Data, o marketing evoluiu muito: dos sistemas de recomendação aos lembretes de substituição de itens vencidos, passando pela oferta de produtos não relacionados aos comprados anteriormente (mas adequados ao perfil de consumo do cliente).</p>
+		    <p>Outra possibilidade é o marketing one to one, que tem propaganda sob medida para cada pessoa. É assim que os produtos que o cliente deseja aparecem magicamente em sites que ele está visitando. Essa técnica, porém, incomoda muitos consumidores e deve ser usada com cautela.</p>
+		    <p><strong>Atendimento ao cliente</strong></p>
+		    <p>Bom atendimento é fundamental antes mesmo de o cliente fazer qualquer compra. É essencial mantê-lo na loja o máximo de tempo possível, pois isso aumenta as chances da venda. Deve-se, portanto, pensar na aparência da loja e, se possível, incluir uma ferramenta de chat para o esclarecimento de dúvidas em tempo real.</p>
+		    <p>No pós-venda, a inovação em TI auxilia na tarefa de aumentar a taxa de fidelização e de ajudar a sanar insatisfações rapidamente (diminuindo a chance de um consumidor descontente fazer propaganda negativa). A massificação das redes sociais permite que o cliente produza estragos consideráveis na reputação de uma marca.</p>
+		    <p>Todos os dados da navegação do consumidor ajudam a empresa a melhorar seu relacionamento com ele, compreender seu comportamento e o porquê de abandonar a loja antes de fazer a compra (independentemente do local em que parou).</p>
 		  </div>
 		</div>
 	</div>
